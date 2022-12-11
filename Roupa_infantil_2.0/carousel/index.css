@@ -1,0 +1,674 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #dbd5d1;
+  font-family: "Roboto", sans-serif;
+  gap: 1em;
+}
+
+.carousel-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5em;
+  max-width: 3900px;
+  width: 100%;
+}
+
+.img img{
+    position: absolute;
+    top: 2%;
+    left: 43%;
+}
+
+.txt h1{
+  position: absolute;
+  left: 41%;
+  top: 2%;
+}
+.lead {
+    position: absolute;
+    top: 22%;
+    left: 25%;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 52px;
+    line-height: 57px;
+}
+
+.wrapped-container {
+  display: flex;
+  overflow: hidden;
+  width: 195%;
+  justify-content: center;
+}
+
+.carousel {
+  width: 100%;
+  height: 100%;
+  margin-top: 5%;
+  position: relative;
+  overflow-y: hidden;
+  display: flex;
+  gap: 1em;
+  scrollbar-width: none;
+}
+
+.carousel {
+}
+
+.arrows {
+  width: 120px;
+  height: 125px;
+  outline: none;
+  border: none;
+  background-color: #c3606000;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  opacity: 1;
+  cursor: pointer;
+  transition: all 0.1s ease;
+  padding: 0;
+  pointer-events: all;
+}
+
+
+
+.arrows svg {
+  width: 7.5em;
+  height: 7.5em;
+  fill: rgb(149, 149, 149);
+}
+
+.arrow-inactive {
+  opacity: 0.5;
+  cursor: auto;
+}
+
+.arrow-inactive:hover {
+  transform: none;
+}
+
+.carousel-item {
+  width: 800px;
+  height:790px;
+}
+
+.carousel-item img {
+  border-radius: 10pt;
+}
+
+
+
+.carousel-wrapper.scrollbar-overflow ::-webkit-scrollbar {
+  height: 6px;
+}
+
+.carousel-wrapper ::-webkit-scrollbar {
+  height: 0px;
+}
+
+.carousel-wrapper ::-webkit-scrollbar-track {
+  background: #c0b6af;
+  border-radius: 10pt;
+}
+
+.carousel-wrapper ::-webkit-scrollbar-thumb {
+  background: #5e4c5a;
+  border-radius: 10pt;
+}
+
+.carousel-wrapper ::-webkit-scrollbar-thumb:hover {
+  background: #2d242b;
+}
+
+@media (pointer: coarse) {
+  .carousel {
+    overflow-x: auto;
+    scrollbar-width: thin;
+  }
+  .carousel-wrapper ::-webkit-scrollbar {
+    height: 6px;
+  }
+}
+
+.produto h3{
+
+
+    /*titulo ofertas da semana */
+
+    position: absolute;
+    width: 343px;
+    height: 65px;
+    left: 20px;
+    top: 640px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 27px;
+}
+
+
+.produto p{
+
+
+    /*subtitulo ofertas da semana */
+
+    position: absolute;
+    width: 343px;
+    height: 45px;
+    left: 25px;
+    top: 725px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 27px;
+}
+
+.produto .icon_1{
+
+    /*icon de estrela ofertas da semana */
+    
+    position: absolute;
+    width: 166.41px;
+    height: 28px;
+    left: 419px;
+    top: 685px;
+
+}
+
+    /*inicio icon de coração animação ofertas da semana */
+
+.produto .tw-heart-box {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin-top: -24px;
+    left: 470px;
+    display: inline-block;
+  }
+  
+  .produto  .tw-heart {
+    background: url(/Roupa_infantil_2.0/icon/icon_carousel/coração.png) no-repeat 0 0;
+    display: inline-block;
+    width: inherit;
+    height: 311%;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  
+  [type="checkbox"]:checked + .tw-heart {
+    transition: background .8s steps(28);
+    background-position: -2800px 0;
+  }
+  
+  [type="checkbox"] {
+    opacity: 0;
+    cursor: pointer;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    width: 40%;
+    height: 40%;
+    z-index: 1;
+  }
+
+      /* Fim icon de coração animação ofertas da semana */
+
+      /* inicio da animação  de estrela  */
+.avaliacao{
+  display: flex;
+  margin-left: 58%;
+  margin-top: 1%;
+ }
+.star-icon{
+  list-style-type: none;
+  cursor: pointer;
+  color: #ffe500;
+  background-color: #dbd5d1;
+  font-size: 50px;/* alterar o tamanho das estrelas */
+}
+.star-icon::before{
+  content: "\2605";
+}
+.star-icon.ativo ~ .star-icon::before{
+  content: "\2606";
+}
+.avaliacao:hover .star-icon::before{
+  content: "\2605";
+}
+.star-icon:hover ~ .star-icon::before{
+  content: "\2606";
+}
+
+      /* Fim da animação  de estrela  */
+
+
+.icon_1{
+
+    /*icon de carrinho de compras ofertas da semana */
+        
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 755px;
+    left: 550px;
+
+    }
+
+    .produto_2 h3{
+
+
+        /*titulo ofertas da semana */
+    
+        position: absolute;
+        width: 343px;
+        height: 65px;
+        left: 630px;
+        top: 640px;
+        
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 42px;
+        line-height: 27px;
+    }
+    
+    
+    .produto_2 p{
+    
+    
+        /*subtitulo ofertas da semana */
+    
+        position: absolute;
+        width: 343px;
+        height: 45px;
+        left: 635px;
+        top: 725px;
+        
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 27px;
+    }
+    
+    .produto_2 .icon_2{
+    
+        /*icon de estrela ofertas da semana */
+        
+        position: absolute;
+        width: 166.41px;
+        height: 28px;
+        left: 1025px;
+        top: 685px;
+    
+    }
+    
+        /*inicio icon de coração animação ofertas da semana */
+    
+    .produto_2 .tw-heart-box {
+        position: relative;
+        width: 100px;
+        height: 100px;
+        margin-top: -24px;
+        left: 470px;
+        display: inline-block;
+      }
+      
+      .produto_2 .tw-heart {
+        background: url(/Roupa_infantil_2.0/icon/icon_carousel/coração.png) no-repeat 0 0;
+        display: inline-block;
+        width: inherit;
+        height: 311%;
+        position: absolute;
+        left: 0;
+        top: 0;
+      }
+      
+      [type="checkbox"]:checked + .tw-heart {
+        transition: background .8s steps(28);
+        background-position: -2800px 0;
+      }
+      
+      [type="checkbox"] {
+        opacity: 0;
+        cursor: pointer;
+        position: absolute;
+        top: 30%;
+        left: 30%;
+        width: 40%;
+        height: 40%;
+        z-index: 1;
+      }
+    
+          /* Fim icon de coração animação ofertas da semana */
+
+    
+    .icon_2{
+    
+        /*icon de carrinho de compras ofertas da semana */
+            
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        top: 750px;
+        left: 1165px;
+    
+        } 
+
+
+        
+        .produto_3 h3{
+
+
+            /*titulo ofertas da semana */
+        
+            position: absolute;
+            width: 343px;
+            height: 65px;
+            left: 1250px;
+            top: 640px;
+            
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 42px;
+            line-height: 27px;
+        }
+        
+        
+        .produto_3 p{
+        
+        
+            /*subtitulo ofertas da semana */
+        
+            position: absolute;
+            width: 343px;
+            height: 45px;
+            left: 1260px;
+            top: 725px;
+            
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 32px;
+            line-height: 27px;
+        }
+        
+        .produto_3 .icon_3{
+        
+            /*icon de estrela ofertas da semana */
+            
+            position: absolute;
+            width: 166.41px;
+            height: 28px;
+            left: 1645px;
+            top: 685px;
+        
+        }
+        
+            /*inicio icon de coração animação ofertas da semana */
+        
+        .produto_3 .tw-heart-box {
+            position: relative;
+            width: 100px;
+            height: 100px;
+            margin-top: -24px;
+            left: 470px;
+            display: inline-block;
+          }
+          
+          .produto_3 .tw-heart {
+            background: url(/Roupa_infantil_2.0/icon/icon_carousel/coração.png) no-repeat 0 0;
+            display: inline-block;
+            width: inherit;
+            height: 311%;
+            position: absolute;
+            left: 0;
+            top: 0;
+          }
+          
+          [type="checkbox"]:checked + .tw-heart {
+            transition: background .8s steps(28);
+            background-position: -2800px 0;
+          }
+          
+          [type="checkbox"] {
+            opacity: 0;
+            cursor: pointer;
+            position: absolute;
+            top: 30%;
+            left: 30%;
+            width: 40%;
+            height: 40%;
+            z-index: 1;
+          }
+        
+              /* Fim icon de coração animação ofertas da semana */
+        
+.icon_3{
+
+    /*icon de carrinho de compras ofertas da semana */
+        
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 750px;
+    left: 1780px;
+
+
+
+    }
+    .produto_4 h3{
+        /*titulo ofertas da semana */
+    
+        position: absolute;
+        width: 343px;
+        height: 65px;
+        left: 1870px;
+        top: 640px;
+        
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 42px;
+        line-height: 27px;
+    }
+    
+    
+    .produto_4 p{
+    
+    
+        /*subtitulo ofertas da semana */
+    
+        position: absolute;
+        width: 343px;
+        height: 45px;
+        left: 1880px;
+        top: 725px;
+        
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 27px;
+    }
+    
+    .produto_4 .icon_4{
+    
+        /*icon de estrela ofertas da semana */
+        
+        position: absolute;
+        width: 166.41px;
+        height: 28px;
+        left: 2255px;
+        top: 685px;
+    
+    }
+    
+        /*inicio icon de coração animação ofertas da semana */
+    
+    .produto_4 .tw-heart-box {
+        position: relative;
+        width: 100px;
+        height: 100px;
+        margin-top: -24px;
+        left: 470px;
+        display: inline-block;
+      }
+      
+      .produto_4 .tw-heart {
+        background: url(/Roupa_infantil_2.0/icon/icon_carousel/coração.png) no-repeat 0 0;
+        display: inline-block;
+        width: inherit;
+        height: 311%;
+        position: absolute;
+        left: 0;
+        top: 0;
+      }
+      
+      [type="checkbox"]:checked + .tw-heart {
+        transition: background .8s steps(28);
+        background-position: -2800px 0;
+      }
+      
+      [type="checkbox"] {
+        opacity: 0;
+        cursor: pointer;
+        position: absolute;
+        top: 30%;
+        left: 30%;
+        width: 40%;
+        height: 40%;
+        z-index: 1;
+      }
+    
+          /* Fim icon de coração animação ofertas da semana */
+    
+    .icon_4{
+    
+        /*icon de carrinho de compras ofertas da semana */
+            
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        top: 750px;
+        left: 2390px;
+    
+        }  
+
+        .produto_5 h3{
+            /*titulo ofertas da semana */
+        
+            position: absolute;
+            width: 343px;
+            height: 65px;
+            left: 2490px;
+            top: 640px;
+            
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 42px;
+            line-height: 27px;
+        }
+        
+        
+        .produto_5 p{
+        
+        
+            /*subtitulo ofertas da semana */
+        
+            position: absolute;
+            width: 343px;
+            height: 45px;
+            left: 2490px;
+            top: 725px;
+            
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 32px;
+            line-height: 27px;
+        }
+        
+        .produto_5 .icon_5{
+        
+            /*icon de estrela ofertas da semana */
+            
+            position: absolute;
+            width: 166.41px;
+            height: 28px;
+            left: 2875px;
+            top: 685px;
+        
+        }
+        
+            /*inicio icon de coração animação ofertas da semana */
+        
+        .produto_5 .tw-heart-box {
+            position: relative;
+            width: 100px;
+            height: 100px;
+            margin-top: -24px;
+            left: 470px;
+            display: inline-block;
+          }
+          
+          .produto_5 .tw-heart {
+            background: url(/Roupa_infantil_2.0/icon/icon_carousel/coração.png) no-repeat 0 0;
+            display: inline-block;
+            width: inherit;
+            height: 311%;
+            position: absolute;
+            left: 0;
+            top: 0;
+          }
+          
+          [type="checkbox"]:checked + .tw-heart {
+            transition: background .8s steps(28);
+            background-position: -2800px 0;
+          }
+          
+          [type="checkbox"] {
+            opacity: 0;
+            cursor: pointer;
+            position: absolute;
+            top: 30%;
+            left: 30%;
+            width: 40%;
+            height: 40%;
+            z-index: 1;
+          }
+        
+              /* Fim icon de coração animação ofertas da semana */
+        
+        .icon_5{
+        
+            /*icon de carrinho de compras ofertas da semana */
+                
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            top: 750px;
+            left: 3010px;
+        
+            }  

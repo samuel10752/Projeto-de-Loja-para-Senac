@@ -1,0 +1,856 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:300);
+
+
+body, html{
+	margin:0;
+	padding:0;
+}
+
+@media screen and (max-width: 700px) {
+    .navbar, .content-inner, .content{
+        float: none;
+        width: 100%;
+        margin-right:0;
+    }
+}
+
+    /* scroll suave*/
+
+html{
+   scroll-behavior: smooth;
+}
+
+.navbar_cor{
+
+    /* navbar_cor */
+
+
+    position: absolute;
+    width: 2855px;
+    height: 90px;
+    left: 0px;
+    top: 0px;
+
+    background: #D9D9D9;
+}
+
+.navbar_img{
+
+    /* navbar imagem_logo */
+
+    position: absolute;
+    left: 190.02px;
+    top: 5px;
+
+}
+
+.navbar_text h3{
+
+    /* Uva Verde */
+
+
+    position: absolute;
+    width: 191px;
+    height: 22px;
+    left: 265px;
+    margin-top: 32px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+}
+
+.navbar_text h4{
+
+    /* Compras online */
+
+
+    position: absolute;
+
+    height: 22px;
+    left: 269px;
+    top: 39px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 19.4px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+}
+
+.navbar_info h1{
+
+    /* navbar Contato */
+
+
+    position: absolute;
+    height: 22px;
+    left: 2592px;
+    margin-top: 30px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+}
+
+.navbar_info h2{
+
+    /* navbar sobre */
+
+
+    position: absolute;
+    height: 22px;
+    left: 2420px;
+    margin-top: 30px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+}
+
+.navbar_info h3{
+
+    /* navbar inicio */
+
+
+    position: absolute;
+    height: 22px;
+    left: 1250px;
+    margin-top: 30px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+}
+
+
+.navbar_clases h2{
+
+    /* navbar bebes */
+
+
+    position: absolute;
+    height: 22px;
+    left: 2220px;
+    margin-top: 30px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+}
+
+.navbar_clases h3{
+
+    /* navbar calçados */
+
+
+    position: absolute;
+    height: 22px;
+    left: 2015px;
+    margin-top: 29px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+}
+
+.navbar_clases h4{
+
+    /* navbar meninas */
+
+
+    position: absolute;
+    height: 22px;
+    left: 1815px;
+    margin-top: 29px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+}
+
+.navbar_clases h5{
+
+    /* navbar meninos */
+
+
+    position: absolute;
+    height: 22px;
+    left: 1615px;
+    margin-top: 29px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+}
+
+.navbar_clases h6{
+
+    /* navbar ofertas */
+
+
+    position: absolute;
+    height: 22px;
+    left: 1425px;
+    margin-top: 30px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+}
+
+.carrinho{
+
+    /*icon de carrinho de compras ofertas da semana */
+        
+    position: absolute;
+    left: 2755px;
+    top: 15px;
+
+    
+}
+.cards img{
+
+    /* card somos */
+
+
+    position: absolute;
+    width: 1030px;
+    height: 863px;
+    left: 190px;
+    top: 150px;
+
+
+}
+
+
+.cor{
+
+    /* card cor */
+
+    position: absolute;
+    width: 1030px;
+    height: 863px;
+    left: 190px;
+    top: 150px;
+
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.cards h1{
+
+    /* titulo somos */
+
+
+    position: absolute;
+    width: 587px;
+    height: 68px;
+    left: 251px;
+    top: 302px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 68px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+
+}
+
+.cards p{
+
+    /* texto de somos */
+
+
+    position: absolute;
+    width: 789px;
+    height: 94px;
+    left: 130px;
+    top: 393px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 42px;
+
+    color: #FFFFFF;
+
+}
+
+    /* animação do ofertas  */
+
+    .container {
+        position: absolute;
+        top: 18%;
+        width: 0%;
+        height: 10%;
+        font-size: 1111px;
+    }
+    .animated-word {
+        font-family: Helvetica;
+        letter-spacing: 0.4em;
+        font-weight: 1100;
+        font-size: 710px;
+        text-align: center;
+        color: #202125;
+      cursor: pointer;
+      max-width: 260px;
+      max-height: 50px; 
+      width: 10%; 
+      outline: 10px solid;
+      outline-color: rgb(255, 255, 255);
+      outline-offset: 0px;
+      transition: all 600ms cubic-bezier(0.2, 0, 0, 0.8);
+    }
+    
+    .animated-word:hover {
+        color: rgba(1, 250, 13, 0.7);
+      outline-color: rgba(71, 126, 232, 0);
+      outline-offset: 20px;
+    } 
+
+    /* Fim da animação do botão de comprar  */
+
+
+.card_1 img{
+
+    /* card Bebês */
+
+
+    position: absolute;
+    width: 595px;
+    height: 421.5px;
+    left: 1300px;
+    top: 150px;
+}
+
+.cor_1{
+
+    /* card Bebês*/
+
+
+    position: absolute;
+    width: 595px;
+    height: 421.5px;
+    left: 1300px;
+    top: 150px;
+
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.card_1 h1{
+
+    /*Titulo Bebês */
+
+
+    position: absolute;
+    width: 95px;
+    height: 21.5px;
+    left: 225px;
+    top: 100px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+
+    color: #FFFFFF;
+
+}
+
+.card_1 p{
+
+    /*Subtitulo Bebês */
+
+
+    position: absolute;
+    width: 425px;
+    height: 21.5px;
+    left: 100px;
+    top: 160px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 60px;
+
+    color: #FFFFFF;
+
+}
+
+   /* animação do botão de Ofertas  */
+
+.container_1 {
+    position: absolute;
+    top: 20%;
+    left: 17%;
+}
+
+.animated-word_1 {
+    font-family: Helvetica;
+    letter-spacing: 0.4em;
+    font-weight: 00px;
+    font-size: 10px;
+    text-align: center;
+    color: #202125;
+  cursor: pointer;
+  min-height: 60px;
+  max-height: 220px;
+  max-width: 230px;  
+  outline: 10px solid;
+  outline-color: rgb(255, 255, 255);
+  outline-offset: px;
+  transition: all 600ms cubic-bezier(0.2, 0, 0, 0.8);
+}
+.animated-word_1:hover {
+	color: rgba(9, 255, 21, 0.7);
+  outline-color: rgba(71, 126, 232, 0);
+  outline-offset: 20px;
+}
+
+
+/* Fim da animação do botão de Ofertas  */
+
+
+
+.card_2 img{
+
+    /* card Meninas */
+
+
+    position: absolute;
+    width: 595px;
+    height: 421.5px;
+    left: 1300px;
+    top: 590px;
+}
+
+.cor_2{
+
+    /* card Meninas*/
+
+
+    position: absolute;
+    width: 595px;
+    height: 421.5px;
+    left: 1300px;
+    top: 590px;
+
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.card_2 h1{
+
+    /*Titulo Meninas */
+
+
+    position: absolute;
+    width: 95px;
+    height: 21.5px;
+    left: 215px;
+    top: 100px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+
+    color: #FFFFFF;
+
+}
+
+.card_2 p{
+
+    /*Subtitulo Meninas */
+
+
+    position: absolute;
+    width: 425px;
+    height: 21.5px;
+    left: 100px;
+    top: 160px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 60px;
+
+    color: #FFFFFF;
+
+}
+
+   /* animação do botão de Ofertas   */
+
+   .container_2 {
+    position: absolute;
+    top: 20%;
+    left: 17%;
+}
+
+.animated-word_2 {
+    font-family: Helvetica;
+    letter-spacing: 0.4em;
+    font-weight: 00px;
+    font-size: 10px;
+    text-align: center;
+    color: #202125;
+  cursor: pointer;
+  min-height: 60px;
+  max-height: 220px;
+  max-width: 230px;  
+  outline: 10px solid;
+  outline-color: rgb(255, 255, 255);
+  outline-offset: px;
+  transition: all 600ms cubic-bezier(0.2, 0, 0, 0.8);
+}
+.animated-word_2:hover {
+	color: rgba(9, 255, 21, 0.7);
+  outline-color: rgba(71, 126, 232, 0);
+  outline-offset: 20px;
+}
+
+
+/* Fim da animação do botão de Ofertas  */
+
+
+
+.card_3 img{
+
+    /* card Meninos  */
+
+
+    position: absolute;
+    width: 595px;
+    height: 421.5px;
+    left: 2000px;
+    top: 150px;
+}
+
+
+.cor_3{
+
+    /* card Meninos */
+
+
+    position: absolute;
+    width: 595px;
+    height: 421.5px;
+    left: 2000px;
+    top: 150px;
+
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.card_3 h1{
+
+    /*Titulo Meninos */
+
+
+    position: absolute;
+    width: 95px;
+    height: 21.5px;
+    left: 215px;
+    top: 100px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+
+    color: #FFFFFF;
+
+}
+
+.card_3 p{
+
+    /*Subtitulo  Meninos*/
+
+
+    position: absolute;
+    width: 425px;
+    height: 21.5px;
+    left: 100px;
+    top: 160px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 60px;
+
+    color: #FFFFFF;
+
+}
+
+
+   /* animação do botão de Ofertas   */
+
+   .container_3 {
+    position: absolute;
+    top: 20%;
+    left: 17%;
+}
+
+.animated-word_3 {
+    font-family: Helvetica;
+    letter-spacing: 0.4em;
+    font-weight: 00px;
+    font-size: 10px;
+    text-align: center;
+    color: #202125;
+  cursor: pointer;
+  min-height: 60px;
+  max-height: 220px;
+  max-width: 230px;  
+  outline: 10px solid;
+  outline-color: rgb(255, 255, 255);
+  outline-offset: px;
+  transition: all 600ms cubic-bezier(0.2, 0, 0, 0.8);
+}
+.animated-word_3:hover {
+	color: rgba(9, 255, 21, 0.7);
+  outline-color: rgba(71, 126, 232, 0);
+  outline-offset: 20px;
+}
+
+
+/* Fim da animação do botão de Ofertas   */
+
+
+
+.card_4 img{
+
+    /* card Calçados */
+
+
+    position: absolute;
+    width: 595px;
+    height: 421.5px;
+    left: 2000px;
+    top: 593px;
+}
+
+
+.cor_4{
+
+    /* card Calçados */
+
+
+    position: absolute;
+    width: 595px;
+    height: 421.5px;
+    left: 2000px;
+    top: 593px;
+
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.card_4 h1{
+
+    /*Titulo Calçados */
+
+
+    position: absolute;
+    width: 95px;
+    height: 21.5px;
+    left: 205px;
+    top: 100px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+
+    color: #FFFFFF;
+
+}
+
+.card_4 p{
+
+    /*Subtitulo Calçados*/
+
+
+    position: absolute;
+    width: 425px;
+    height: 21.5px;
+    left: 100px;
+    top: 160px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 60px;
+
+    color: #FFFFFF;
+
+}
+
+
+   /* animação do botão de Ofertas  */
+
+   .container_4 {
+    position: absolute;
+    top: 20%;
+    left: 17%;
+}
+
+.animated-word_4 {
+    font-family: Helvetica;
+    letter-spacing: 0.4em;
+    font-weight: 00px;
+    font-size: 10px;
+    text-align: center;
+    color: #202125;
+  cursor: pointer;
+  min-height: 60px;
+  max-height: 220px;
+  max-width: 230px;  
+  outline: 10px solid;
+  outline-color: rgb(255, 255, 255);
+  outline-offset: px;
+  transition: all 600ms cubic-bezier(0.2, 0, 0, 0.8);
+}
+.animated-word_4:hover {
+	color: rgba(9, 255, 21, 0.7);
+  outline-color: rgba(71, 126, 232, 0);
+  outline-offset: 20px;
+}
+
+
+/* Fim da animação do botão de Ofertas   */
+
+.cor_pri{
+
+    /* cor pri */
+
+    position: absolute;
+    width: 2847px;
+    height: 1400px;
+    top: 1060px;
+
+    background: #D9D9D9;
+
+    
+}
+
+.catalogo h1{
+    
+    /*Titulo ofertas da semana */
+
+
+    position: absolute;
+    width: 595px;
+    height: 21.5px;
+    left: 205px;
+    top: 100px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+
+    color: #000000;
+    
+}
+
+.catalogo p{
+    
+    /*Subtitulo ofertas da semana*/
+
+
+    position: absolute;
+    width: 595px;
+    height: 21.5px;
+    left: 205px;
+    top: 150px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 60px;
+
+    color: #000000;
+    
+}
+
