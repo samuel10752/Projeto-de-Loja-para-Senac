@@ -1,26 +1,14 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:300);
 
 
-body, html{
-	margin:0;
-	padding:0;
-}
-
-@media screen and (max-width: 700px) {
-    .navbar, .content-inner, .content{
-        float: none;
-        width: 100%;
-        margin-right:0;
-    }
-}
+html {
 
     /* scroll suave*/
 
-html{
-   scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
-.navbar_cor{
+.navbar_cor {
 
     /* navbar_cor */
 
@@ -34,7 +22,7 @@ html{
     background: #D9D9D9;
 }
 
-.navbar_img{
+.navbar_img {
 
     /* navbar imagem_logo */
 
@@ -44,7 +32,7 @@ html{
 
 }
 
-.navbar_text h3{
+.navbar_text h3 {
 
     /* Uva Verde */
 
@@ -58,7 +46,7 @@ html{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
-    font-size: 35px;
+    font-size: clamp(2em, 1em + 3vw, 2.5em);
     line-height: 22px;
     /* identical to box height */
 
@@ -67,7 +55,7 @@ html{
 
 }
 
-.navbar_text h4{
+.navbar_text h4 {
 
     /* Compras online */
 
@@ -81,7 +69,6 @@ html{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 900;
-    font-size: 19.4px;
     line-height: 22px;
     /* identical to box height */
 
@@ -90,7 +77,7 @@ html{
 
 }
 
-.navbar_info h1{
+.navbar_info h1 {
 
     /* navbar Contato */
 
@@ -112,7 +99,7 @@ html{
 
 }
 
-.navbar_info h2{
+.navbar_info h2 {
 
     /* navbar sobre */
 
@@ -134,7 +121,7 @@ html{
 
 }
 
-.navbar_info h3{
+.navbar_info h3 {
 
     /* navbar inicio */
 
@@ -157,7 +144,7 @@ html{
 }
 
 
-.navbar_clases h2{
+.navbar_clases h2 {
 
     /* navbar bebes */
 
@@ -179,7 +166,7 @@ html{
 
 }
 
-.navbar_clases h3{
+.navbar_clases h3 {
 
     /* navbar calçados */
 
@@ -201,7 +188,7 @@ html{
 
 }
 
-.navbar_clases h4{
+.navbar_clases h4 {
 
     /* navbar meninas */
 
@@ -223,7 +210,7 @@ html{
 
 }
 
-.navbar_clases h5{
+.navbar_clases h5 {
 
     /* navbar meninos */
 
@@ -245,7 +232,7 @@ html{
 
 }
 
-.navbar_clases h6{
+.navbar_clases h6 {
 
     /* navbar ofertas */
 
@@ -267,17 +254,18 @@ html{
 
 }
 
-.carrinho{
+.carrinho {
 
     /*icon de carrinho de compras ofertas da semana */
-        
+
     position: absolute;
     left: 2755px;
     top: 15px;
 
-    
+
 }
-.cards img{
+
+.cards img {
 
     /* card somos */
 
@@ -292,7 +280,7 @@ html{
 }
 
 
-.cor{
+.cor {
 
     /* card cor */
 
@@ -305,7 +293,7 @@ html{
     background: rgba(0, 0, 0, 0.5);
 }
 
-.cards h1{
+.cards h1 {
 
     /* titulo somos */
 
@@ -328,7 +316,7 @@ html{
 
 }
 
-.cards p{
+.cards p {
 
     /* texto de somos */
 
@@ -349,42 +337,43 @@ html{
 
 }
 
-    /* animação do ofertas  */
+/* animação do ofertas  */
 
-    .container {
-        position: absolute;
-        top: 18%;
-        width: 0%;
-        height: 10%;
-        font-size: 1111px;
-    }
-    .animated-word {
-        font-family: Helvetica;
-        letter-spacing: 0.4em;
-        font-weight: 1100;
-        font-size: 710px;
-        text-align: center;
-        color: #202125;
-      cursor: pointer;
-      max-width: 260px;
-      max-height: 50px; 
-      width: 10%; 
-      outline: 10px solid;
-      outline-color: rgb(255, 255, 255);
-      outline-offset: 0px;
-      transition: all 600ms cubic-bezier(0.2, 0, 0, 0.8);
-    }
-    
-    .animated-word:hover {
-        color: rgba(1, 250, 13, 0.7);
-      outline-color: rgba(71, 126, 232, 0);
-      outline-offset: 20px;
-    } 
+.container {
+    position: absolute;
+    top: 18%;
+    width: 0%;
+    height: 10%;
+    font-size: 1111px;
+}
 
-    /* Fim da animação do botão de comprar  */
+.animated-word {
+    font-family: Helvetica;
+    letter-spacing: 0.4em;
+    font-weight: 1100;
+    font-size: 710px;
+    text-align: center;
+    color: #202125;
+    cursor: pointer;
+    max-width: 260px;
+    max-height: 50px;
+    width: 10%;
+    outline: 10px solid;
+    outline-color: rgb(255, 255, 255);
+    outline-offset: 0px;
+    transition: all 600ms cubic-bezier(0.2, 0, 0, 0.8);
+}
+
+.animated-word:hover {
+    color: rgba(1, 250, 13, 0.7);
+    outline-color: rgba(71, 126, 232, 0);
+    outline-offset: 20px;
+}
+
+/* Fim da animação do botão de comprar  */
 
 
-.card_1 img{
+.card_1 img {
 
     /* card Bebês */
 
@@ -396,7 +385,7 @@ html{
     top: 150px;
 }
 
-.cor_1{
+.cor_1 {
 
     /* card Bebês*/
 
@@ -410,7 +399,7 @@ html{
     background: rgba(0, 0, 0, 0.5);
 }
 
-.card_1 h1{
+.card_1 h1 {
 
     /*Titulo Bebês */
 
@@ -431,7 +420,7 @@ html{
 
 }
 
-.card_1 p{
+.card_1 p {
 
     /*Subtitulo Bebês */
 
@@ -452,7 +441,7 @@ html{
 
 }
 
-   /* animação do botão de Ofertas  */
+/* animação do botão de Ofertas  */
 
 .container_1 {
     position: absolute;
@@ -467,19 +456,20 @@ html{
     font-size: 10px;
     text-align: center;
     color: #202125;
-  cursor: pointer;
-  min-height: 60px;
-  max-height: 220px;
-  max-width: 230px;  
-  outline: 10px solid;
-  outline-color: rgb(255, 255, 255);
-  outline-offset: px;
-  transition: all 600ms cubic-bezier(0.2, 0, 0, 0.8);
+    cursor: pointer;
+    min-height: 60px;
+    max-height: 220px;
+    max-width: 230px;
+    outline: 10px solid;
+    outline-color: rgb(255, 255, 255);
+    outline-offset: px;
+    transition: all 600ms cubic-bezier(0.2, 0, 0, 0.8);
 }
+
 .animated-word_1:hover {
-	color: rgba(9, 255, 21, 0.7);
-  outline-color: rgba(71, 126, 232, 0);
-  outline-offset: 20px;
+    color: rgba(9, 255, 21, 0.7);
+    outline-color: rgba(71, 126, 232, 0);
+    outline-offset: 20px;
 }
 
 
@@ -487,7 +477,7 @@ html{
 
 
 
-.card_2 img{
+.card_2 img {
 
     /* card Meninas */
 
@@ -499,7 +489,7 @@ html{
     top: 590px;
 }
 
-.cor_2{
+.cor_2 {
 
     /* card Meninas*/
 
@@ -513,7 +503,7 @@ html{
     background: rgba(0, 0, 0, 0.5);
 }
 
-.card_2 h1{
+.card_2 h1 {
 
     /*Titulo Meninas */
 
@@ -534,7 +524,7 @@ html{
 
 }
 
-.card_2 p{
+.card_2 p {
 
     /*Subtitulo Meninas */
 
@@ -555,9 +545,9 @@ html{
 
 }
 
-   /* animação do botão de Ofertas   */
+/* animação do botão de Ofertas   */
 
-   .container_2 {
+.container_2 {
     position: absolute;
     top: 20%;
     left: 17%;
@@ -570,19 +560,20 @@ html{
     font-size: 10px;
     text-align: center;
     color: #202125;
-  cursor: pointer;
-  min-height: 60px;
-  max-height: 220px;
-  max-width: 230px;  
-  outline: 10px solid;
-  outline-color: rgb(255, 255, 255);
-  outline-offset: px;
-  transition: all 600ms cubic-bezier(0.2, 0, 0, 0.8);
+    cursor: pointer;
+    min-height: 60px;
+    max-height: 220px;
+    max-width: 230px;
+    outline: 10px solid;
+    outline-color: rgb(255, 255, 255);
+    outline-offset: px;
+    transition: all 600ms cubic-bezier(0.2, 0, 0, 0.8);
 }
+
 .animated-word_2:hover {
-	color: rgba(9, 255, 21, 0.7);
-  outline-color: rgba(71, 126, 232, 0);
-  outline-offset: 20px;
+    color: rgba(9, 255, 21, 0.7);
+    outline-color: rgba(71, 126, 232, 0);
+    outline-offset: 20px;
 }
 
 
@@ -590,7 +581,7 @@ html{
 
 
 
-.card_3 img{
+.card_3 img {
 
     /* card Meninos  */
 
@@ -603,7 +594,7 @@ html{
 }
 
 
-.cor_3{
+.cor_3 {
 
     /* card Meninos */
 
@@ -617,7 +608,7 @@ html{
     background: rgba(0, 0, 0, 0.5);
 }
 
-.card_3 h1{
+.card_3 h1 {
 
     /*Titulo Meninos */
 
@@ -638,7 +629,7 @@ html{
 
 }
 
-.card_3 p{
+.card_3 p {
 
     /*Subtitulo  Meninos*/
 
@@ -660,9 +651,9 @@ html{
 }
 
 
-   /* animação do botão de Ofertas   */
+/* animação do botão de Ofertas   */
 
-   .container_3 {
+.container_3 {
     position: absolute;
     top: 20%;
     left: 17%;
@@ -675,19 +666,20 @@ html{
     font-size: 10px;
     text-align: center;
     color: #202125;
-  cursor: pointer;
-  min-height: 60px;
-  max-height: 220px;
-  max-width: 230px;  
-  outline: 10px solid;
-  outline-color: rgb(255, 255, 255);
-  outline-offset: px;
-  transition: all 600ms cubic-bezier(0.2, 0, 0, 0.8);
+    cursor: pointer;
+    min-height: 60px;
+    max-height: 220px;
+    max-width: 230px;
+    outline: 10px solid;
+    outline-color: rgb(255, 255, 255);
+    outline-offset: px;
+    transition: all 600ms cubic-bezier(0.2, 0, 0, 0.8);
 }
+
 .animated-word_3:hover {
-	color: rgba(9, 255, 21, 0.7);
-  outline-color: rgba(71, 126, 232, 0);
-  outline-offset: 20px;
+    color: rgba(9, 255, 21, 0.7);
+    outline-color: rgba(71, 126, 232, 0);
+    outline-offset: 20px;
 }
 
 
@@ -695,7 +687,7 @@ html{
 
 
 
-.card_4 img{
+.card_4 img {
 
     /* card Calçados */
 
@@ -708,7 +700,7 @@ html{
 }
 
 
-.cor_4{
+.cor_4 {
 
     /* card Calçados */
 
@@ -722,7 +714,7 @@ html{
     background: rgba(0, 0, 0, 0.5);
 }
 
-.card_4 h1{
+.card_4 h1 {
 
     /*Titulo Calçados */
 
@@ -743,7 +735,7 @@ html{
 
 }
 
-.card_4 p{
+.card_4 p {
 
     /*Subtitulo Calçados*/
 
@@ -765,9 +757,9 @@ html{
 }
 
 
-   /* animação do botão de Ofertas  */
+/* animação do botão de Ofertas  */
 
-   .container_4 {
+.container_4 {
     position: absolute;
     top: 20%;
     left: 17%;
@@ -780,25 +772,26 @@ html{
     font-size: 10px;
     text-align: center;
     color: #202125;
-  cursor: pointer;
-  min-height: 60px;
-  max-height: 220px;
-  max-width: 230px;  
-  outline: 10px solid;
-  outline-color: rgb(255, 255, 255);
-  outline-offset: px;
-  transition: all 600ms cubic-bezier(0.2, 0, 0, 0.8);
+    cursor: pointer;
+    min-height: 60px;
+    max-height: 220px;
+    max-width: 230px;
+    outline: 10px solid;
+    outline-color: rgb(255, 255, 255);
+    outline-offset: px;
+    transition: all 600ms cubic-bezier(0.2, 0, 0, 0.8);
 }
+
 .animated-word_4:hover {
-	color: rgba(9, 255, 21, 0.7);
-  outline-color: rgba(71, 126, 232, 0);
-  outline-offset: 20px;
+    color: rgba(9, 255, 21, 0.7);
+    outline-color: rgba(71, 126, 232, 0);
+    outline-offset: 20px;
 }
 
 
 /* Fim da animação do botão de Ofertas   */
 
-.cor_pri{
+.cor_pri {
 
     /* cor pri */
 
@@ -809,11 +802,11 @@ html{
 
     background: #D9D9D9;
 
-    
+
 }
 
-.catalogo h1{
-    
+.catalogo h1 {
+
     /*Titulo ofertas da semana */
 
 
@@ -830,11 +823,11 @@ html{
     line-height: 60px;
 
     color: #000000;
-    
+
 }
 
-.catalogo p{
-    
+.catalogo p {
+
     /*Subtitulo ofertas da semana*/
 
 
@@ -851,6 +844,5 @@ html{
     line-height: 60px;
 
     color: #000000;
-    
-}
 
+}
