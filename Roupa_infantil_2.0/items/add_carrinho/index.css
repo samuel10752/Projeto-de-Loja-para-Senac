@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #F2EEE9;
+    font-family: 'Lexend Deca', sans-serif;
+    color: #333;
+}
+.wrapper {
+    width: 705px;
+    max-width: 100%;
+    margin: 20px auto;
+    padding: 20px;
+}
+h1 {
+    display: inline-block;
+    background-color: #f17502;
+    color: #fff;
+    font-size: 20px;
+    font-weight: normal;
+    text-transform: uppercase;
+    padding: 4px 20px;
+    float: left;
+}
+.clear {
+    clear: both;
+}
+.items {
+    display: block;
+    margin: 20px 0;
+}
+.item {
+    background-color: #fff;
+    float: left;
+    margin: 0 10px 10px 0;
+    width: 205px;
+    padding: 10px;
+    height: 290px;
+}
+.item img {
+    display: block;
+    margin: auto;
+    max-width: 200px;
+    max-height: 200px;
+}
+h2 {
+    font-size: 16px;
+    display: block;
+    border-bottom: 1px solid #ccc;
+    margin: 0 0 10px 0;
+    padding: 0 0 5px 0;
+}
+button {
+    border: 1px solid #f17502;
+    padding: 4px 14px;
+    background-color: #fff;
+    color: #f17502;
+    text-transform: uppercase;
+    float: right;
+    margin: 5px 0;
+    font-weight: bold;
+    cursor: pointer;
+}
+span {
+    float: right;
+}
+.shopping-cart {
+    display: inline-block;
+    background: url('https://webdevtrick.com/wp-content/uploads/cart.png') no-repeat 0 0;
+    width: 24px;
+    height: 24px;
+    margin: 0 10px 0 0;
+}
+ 
+@media (max-width: 765px) {
+    span {
+        float: none;
+        margin: 0 auto;
+    }
+    .item {
+        width: 85%;
+    }
+    .shopping-cart {
+        float: right;
+        padding-right: 25px;
+    }
+    h1 {
+        font-size: 14px;
+    }
+}
