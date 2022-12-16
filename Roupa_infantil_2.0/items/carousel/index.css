@@ -200,7 +200,7 @@ body {
   position: relative;
   width: 100px;
   height: 100px;
-  margin-top: -24px;
+  margin-top:-77px;
   left: 470px;
   display: inline-block;
 }
@@ -234,35 +234,9 @@ body {
 /* Fim icon de coração animação ofertas da semana */
 
 /* inicio da animação  de estrela  */
-.avaliacao {
-  display: flex;
-  margin-left: 58%;
-  margin-top: 1%;
-}
-
-.star-icon {
-  list-style-type: none;
-  cursor: pointer;
-  color: #ffe500;
-  background-color: #dbd5d1;
-  font-size: 50px;
-  /* alterar o tamanho das estrelas */
-}
-
-.star-icon::before {
-  content: "\2605";
-}
-
-.star-icon.ativo~.star-icon::before {
-  content: "\2606";
-}
-
-.avaliacao:hover .star-icon::before {
-  content: "\2605";
-}
-
-.star-icon:hover~.star-icon::before {
-  content: "\2606";
+.estrela_1{
+  margin-top: -55px;
+  margin-left: 73%;
 }
 
 /* Fim da animação  de estrela  */
@@ -459,7 +433,7 @@ body {
   position: relative;
   width: 100px;
   height: 100px;
-  margin-top: -24px;
+  margin-top: 0px;
   left: 470px;
   display: inline-block;
 }
@@ -492,6 +466,13 @@ body {
 
 /* Fim icon de coração animação ofertas da semana */
 
+/* inicio da animação  de estrela  */
+.estrela_2{
+  margin-top: 20px;
+  margin-left: 73%;
+}
+
+/* Fim da animação  de estrela  */
 
 .icon_2 {
 
@@ -562,7 +543,7 @@ body {
   position: relative;
   width: 100px;
   height: 100px;
-  margin-top: -24px;
+  margin-top: 0px;
   left: 470px;
   display: inline-block;
 }
@@ -594,6 +575,14 @@ body {
 }
 
 /* Fim icon de coração animação ofertas da semana */
+
+/* inicio da animação  de estrela  */
+.estrela_3{
+  margin-top: 20px;
+  margin-left: 73%;
+}
+
+/* Fim da animação  de estrela  */
 
 .icon_3 {
 
@@ -662,7 +651,7 @@ body {
   position: relative;
   width: 100px;
   height: 100px;
-  margin-top: -24px;
+  margin-top: 0px;
   left: 470px;
   display: inline-block;
 }
@@ -694,6 +683,14 @@ body {
 }
 
 /* Fim icon de coração animação ofertas da semana */
+
+/* inicio da animação  de estrela  */
+.estrela_4{
+  margin-top: 20px;
+  margin-left: 73%;
+}
+
+/* Fim da animação  de estrela  */
 
 .icon_4 {
 
@@ -760,7 +757,7 @@ body {
   position: relative;
   width: 100px;
   height: 100px;
-  margin-top: -24px;
+  margin-top: -90px;
   left: 470px;
   display: inline-block;
 }
@@ -792,6 +789,14 @@ body {
 }
 
 /* Fim icon de coração animação ofertas da semana */
+
+/* inicio da animação  de estrela  */
+.estrela_5{
+  margin-top: -70px;
+  margin-left: 73%;
+}
+
+/* Fim da animação  de estrela  */
 
 .icon_5 {
 
