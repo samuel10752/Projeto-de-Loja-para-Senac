@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
+
+
 body {
   margin: 0;
   padding: 0;
@@ -18,8 +20,7 @@ body {
   display: flex;
   justify-content: space-between;
   gap: 0.5em;
-  max-width: 3900px;
-  width: 100%;
+  max-width: 100%;
 }
 
 .img img {
@@ -64,11 +65,10 @@ body {
   scrollbar-width: none;
 }
 
-.carousel {}
 
 .arrows {
-  width: 120px;
-  height: 125px;
+  width: 9%;
+  height: 9%;
   outline: none;
   border: none;
   background-color: #c3606000;
@@ -102,7 +102,7 @@ body {
 }
 
 .carousel-item {
-  width: 800px;
+  width: 49%;
   height: 790px;
 }
 
