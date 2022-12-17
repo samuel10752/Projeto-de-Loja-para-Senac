@@ -200,7 +200,7 @@ body {
   position: relative;
   width: 100px;
   height: 100px;
-  margin-top:-77px;
+  margin-top: -77px;
   left: 470px;
   display: inline-block;
 }
@@ -234,7 +234,7 @@ body {
 /* Fim icon de coração animação ofertas da semana */
 
 /* inicio da animação  de estrela  */
-.estrela_1{
+.estrela_1 {
   margin-top: -55px;
   margin-left: 73%;
 }
@@ -320,16 +320,16 @@ body {
 
 @keyframes cart {
   0% {
-      left: -10%
+    left: -10%
   }
 
   40%,
   60% {
-      left: 50%
+    left: 50%
   }
 
   100% {
-      left: 110%
+    left: 110%
   }
 }
 
@@ -337,17 +337,17 @@ body {
 
   0%,
   40% {
-      top: -20%
+    top: -20%
   }
 
   60% {
-      top: 36%;
-      left: 53%
+    top: 36%;
+    left: 53%
   }
 
   100% {
-      top: 40%;
-      left: 112%
+    top: 40%;
+    left: 112%
   }
 }
 
@@ -355,12 +355,12 @@ body {
 
   0%,
   30% {
-      opacity: 1
+    opacity: 1
   }
 
   30%,
   100% {
-      opacity: 0
+    opacity: 0
   }
 }
 
@@ -368,11 +368,11 @@ body {
 
   0%,
   80% {
-      opacity: 0
+    opacity: 0
   }
 
   100% {
-      opacity: 1
+    opacity: 1
   }
 }
 
@@ -467,7 +467,7 @@ body {
 /* Fim icon de coração animação ofertas da semana */
 
 /* inicio da animação  de estrela  */
-.estrela_2{
+.estrela_2 {
   margin-top: 20px;
   margin-left: 73%;
 }
@@ -577,7 +577,7 @@ body {
 /* Fim icon de coração animação ofertas da semana */
 
 /* inicio da animação  de estrela  */
-.estrela_3{
+.estrela_3 {
   margin-top: 20px;
   margin-left: 73%;
 }
@@ -685,7 +685,7 @@ body {
 /* Fim icon de coração animação ofertas da semana */
 
 /* inicio da animação  de estrela  */
-.estrela_4{
+.estrela_4 {
   margin-top: 20px;
   margin-left: 73%;
 }
@@ -791,7 +791,7 @@ body {
 /* Fim icon de coração animação ofertas da semana */
 
 /* inicio da animação  de estrela  */
-.estrela_5{
+.estrela_5 {
   margin-top: -70px;
   margin-left: 73%;
 }
