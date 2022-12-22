@@ -8,13 +8,36 @@ html {
     scroll-behavior: smooth;
 }
 
+.loader{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgb(0, 0, 0);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .disppear{
+    animation: vanish 1s forwards;
+  }
+  
+  @keyframes vanish {
+    100%{
+      opacity: 0;
+      visibility: hidden;
+    }
+  }
+
 .navbar_cor {
 
     /* navbar_cor */
 
 
     position: absolute;
-    width: 2855px;
+    width: 1930px;
     height: 90px;
     left: 0px;
     top: 0px;
@@ -27,7 +50,7 @@ html {
     /* navbar imagem_logo */
 
     position: absolute;
-    left: 190.02px;
+    left: 50.02px;
     top: 5px;
 
 }
@@ -40,7 +63,7 @@ html {
     position: absolute;
     width: 191px;
     height: 22px;
-    left: 265px;
+    left: 120px;
     margin-top: 32px;
 
     font-family: 'Inter';
@@ -63,56 +86,12 @@ html {
     position: absolute;
 
     height: 22px;
-    left: 269px;
+    left: 125px;
     top: 39px;
 
     font-family: 'Inter';
     font-style: normal;
     font-weight: 900;
-    line-height: 22px;
-    /* identical to box height */
-
-
-    color: #000000;
-
-}
-
-.navbar_info h1 {
-
-    /* navbar Contato */
-
-
-    position: absolute;
-    height: 22px;
-    left: 2592px;
-    margin-top: 30px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 27px;
-    line-height: 22px;
-    /* identical to box height */
-
-
-    color: #000000;
-
-}
-
-.navbar_info h2 {
-
-    /* navbar sobre */
-
-
-    position: absolute;
-    height: 22px;
-    left: 2420px;
-    margin-top: 30px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 27px;
     line-height: 22px;
     /* identical to box height */
 
@@ -128,102 +107,13 @@ html {
 
     position: absolute;
     height: 22px;
-    left: 1250px;
+    left: 930px;
     margin-top: 30px;
 
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
-    font-size: 27px;
-    line-height: 22px;
-    /* identical to box height */
-
-
-    color: #000000;
-
-}
-
-
-.navbar_clases h2 {
-
-    /* navbar bebes */
-
-
-    position: absolute;
-    height: 22px;
-    left: 2220px;
-    margin-top: 30px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 27px;
-    line-height: 22px;
-    /* identical to box height */
-
-
-    color: #000000;
-
-}
-
-.navbar_clases h3 {
-
-    /* navbar calçados */
-
-
-    position: absolute;
-    height: 22px;
-    left: 2015px;
-    margin-top: 29px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 27px;
-    line-height: 22px;
-    /* identical to box height */
-
-
-    color: #000000;
-
-}
-
-.navbar_clases h4 {
-
-    /* navbar meninas */
-
-
-    position: absolute;
-    height: 22px;
-    left: 1815px;
-    margin-top: 29px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 27px;
-    line-height: 22px;
-    /* identical to box height */
-
-
-    color: #000000;
-
-}
-
-.navbar_clases h5 {
-
-    /* navbar meninos */
-
-
-    position: absolute;
-    height: 22px;
-    left: 1615px;
-    margin-top: 29px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 27px;
+    font-size: 22px;
     line-height: 22px;
     /* identical to box height */
 
@@ -239,13 +129,13 @@ html {
 
     position: absolute;
     height: 22px;
-    left: 1425px;
+    left: 1035px;
     margin-top: 30px;
 
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
-    font-size: 27px;
+    font-size: 22px;
     line-height: 22px;
     /* identical to box height */
 
@@ -254,12 +144,148 @@ html {
 
 }
 
+
+.navbar_clases h5 {
+
+    /* navbar meninos */
+
+
+    position: absolute;
+    height: 22px;
+    left: 1140px;
+    margin-top: 29px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+}
+
+
+.navbar_clases h4 {
+
+    /* navbar meninas */
+
+
+    position: absolute;
+    height: 22px;
+    left: 1255px;
+    margin-top: 29px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+}
+
+
+.navbar_clases h3 {
+
+    /* navbar calçados */
+
+
+    position: absolute;
+    height: 22px;
+    left: 1375px;
+    margin-top: 29px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+}
+
+.navbar_clases h2 {
+
+    /* navbar bebes */
+
+
+    position: absolute;
+    height: 22px;
+    left: 1510px;
+    margin-top: 30px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+}
+
+.navbar_info h2 {
+
+    /* navbar sobre */
+
+
+    position: absolute;
+    height: 22px;
+    left: 1610px;
+    margin-top: 30px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+}
+
+.navbar_info h1 {
+
+    /* navbar Contato */
+
+
+    position: absolute;
+    height: 22px;
+    left: 1710px;
+    margin-top: 30px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+}
+
+
 .carrinho {
 
     /*icon de carrinho de compras ofertas da semana */
 
     position: absolute;
-    left: 2755px;
+    left: 1825px;
     top: 25px;
 
 
@@ -846,3 +872,5 @@ html {
     color: #000000;
 
 }
+
+
