@@ -20,42 +20,43 @@ body {
   display: flex;
   justify-content: space-between;
   gap: 0.5em;
+  margin-top: 5%;
   max-width: 100%;
 }
 
 .img img {
   position: absolute;
-  top: 2%;
-  left: 43%;
+  top: 6%;
+  left: 46%;
 }
 
 .txt h1 {
   position: absolute;
-  left: 41%;
+  left: 36%;
   top: 2%;
 }
 
 .lead {
   position: absolute;
   top: 22%;
-  left: 25%;
+  left: 18%;
 
   font-family: 'Inter';
   font-style: normal;
   font-weight: 500;
-  font-size: 52px;
+  font-size: 40px;
   line-height: 57px;
 }
 
 .wrapped-container {
   display: flex;
   overflow: hidden;
-  width: 195%;
+  width: 100%;
   justify-content: center;
 }
 
 .carousel {
-  width: 100%;
+  width: 232%;
   height: 100%;
   margin-top: 5%;
   position: relative;
@@ -67,8 +68,8 @@ body {
 
 
 .arrows {
-  width: 9%;
-  height: 9%;
+
+  margin-top: -20%;
   outline: none;
   border: none;
   background-color: #c3606000;
@@ -102,7 +103,7 @@ body {
 }
 
 .carousel-item {
-  width: 49%;
+  width: 80%;
   height: 790px;
 }
 
