@@ -4,6 +4,7 @@ html {
     /* scroll suave*/
 
     scroll-behavior: smooth;
+    scroll-padding-top: 15%;
 }
 
 * {
