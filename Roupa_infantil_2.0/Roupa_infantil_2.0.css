@@ -4,8 +4,10 @@ html {
     /* scroll suave*/
 
     scroll-behavior: smooth;
-    scroll-padding-top: 15%;
+    scroll-padding-top: 120px;
+
 }
+
 
 * {
     padding: 0;
@@ -814,7 +816,7 @@ html {
     position: relative;
     display: flex !important;
     flex-direction: column;
-    height: 550px;
+    height: 560px;
     border-radius: 3px;
     border: 1px solid rgba(0, 0, 0, 0.2);
     background-color: white;
@@ -855,7 +857,7 @@ html {
     /** Visually place the image above all other content (like the heading) in the parent flex container (.card). */
     order: -1;
     position: relative;
-    height: 450px;
+    height: 470px;
     padding: 2px;
     overflow: hidden;
     display: flex;
@@ -959,7 +961,7 @@ html {
     width: 595px;
     height: 21.5px;
     left: 60px;
-    top: 1600px;
+    top: 1700px;
 
     font-family: "Inter";
     font-style: normal;
