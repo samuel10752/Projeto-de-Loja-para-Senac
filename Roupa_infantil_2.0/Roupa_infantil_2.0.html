@@ -7,14 +7,26 @@
   <title>Uva Verde</title>
   <link rel="icon" type="png" href="imagens/barra_imagens/img_logo.png">
   <link rel="stylesheet" href="Roupa_infantil_2.0.css">
+
+  <link rel="stylesheet" type="text/css"
+    href="https://cdn.jsdelivr.net/npm/@accessible360/accessible-slick@1.0.1/slick/slick.min.css" />
+
+  <link rel="stylesheet" type="text/css"
+    href="https:////cdn.jsdelivr.net/npm/@accessible360/accessible-slick@1.0.1/slick/accessible-slick-theme.min.css" />
+
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+
+
+
 </head>
 
-<body >
-  
-    <!-- início do preloader -->
-    <div class="loader_bg">
-      <div class="loader"></div> 
-      </div>
+<body>
+
+  <!-- início do preloader -->
+  <div class="loader_bg">
+    <div class="loader"></div>
+  </div>
 
   <!-- fim do preloader -->
 
@@ -60,7 +72,7 @@
       <h4>Meninas</h4>
     </a>
     <a href="#meninos">
-      <h5>Meninos</h5>
+      <h5 id="Meninos">Meninos</h5>
     </a>
     <a href="#ofertas">
       <h6 id="Ofertas">Ofertas</h6>
@@ -118,11 +130,11 @@
   </div>
 
   <div class="card_3">
-    <img src="imagens/cards/meninos.jpg" alt="meninos">
+    <img src="imagens/cards/meninos.jpg" alt="menino">
     <div class="cor_3">
       <h1>Meninos</h1>
       <p>Estilo de sobra para os meninos!</p>
-      <a href="#">
+      <a href="#meninos">
         <div class="container_3">
           <p class="animated-word_3">Ofertas</p>
       </a>
@@ -143,27 +155,222 @@
   </div>
   </div>
 
+  <!-- Aba de ofertas -->
+
   <div class="ofertas_semana">
     <div class="cor_pri">
       <div id="ofertas" class="catalogo">
         <h1>Ofertas da Semana</h1>
-        <p>Estilo de sobra para os meninos!</p>
+        <p>Estilo de sobra para a Moda Infantil!</p>
+
+        <div class="card-slider">
+          <div class="card">
+
+            <!-- Observe que a imagem e o título do produto estão no mesmo link. Isso pode reduzir enormemente o número de tabulações redundantes em uma página com muitos produtos, criando um UX melhor para usuários apenas de teclado e leitores de tela. -->
 
 
+            <!-- Card 1 -->
 
+            <a href="/Roupa_infantil_2.0/items/404 error/index.html" target="_blank" class="main-link">
+              <h2 class="title">Pijama Masculino</h2>
+
+
+              <!-- Esta imagem tem um atributo alt descritivo, por isso ajuda a colocá-la após o título no DOM. Flexbox é usado para colocá-lo acima do título visualmente (veja a aba CSS para ver como). -->
+              <div class="image">
+                <img src="imagens/imagens_meninos/meninos_1.jpeg"
+                  alt="Small succulent with long, spikey leaves in a mug-like planter.">
+              </div>
+            </a>
+
+            <!-- O selo é colocado ao lado dos preços para que seja lido pelos leitores de tela de maneira mais lógica. -->
+            <div class="badge">Oferta</div>
+
+            <div class="price">
+              <span class="new-price">R$19.49</span>
+              <span class="original-price">
+                <span class="sr-only">Originally:</span>
+                R$30.00
+              </span>
+            </div>
+
+
+            <!-- Os ícones de estrela não transmitem nada aos leitores de tela por conta própria, portanto, precisamos fornecer texto apenas para leitores de tela com seu significado. -->
+            <div class="rating">
+              <span class="sr-only">Rating: 3 out of 5 stars</span>
+              <span class="fas fa-star" aria-hidden="true"></span>
+              <span class="fas fa-star" aria-hidden="true"></span>
+              <span class="fas fa-star" aria-hidden="true"></span>
+              <span class="far fa-star" aria-hidden="true"></span>
+              <span class="far fa-star" aria-hidden="true"></span>
+
+              <a href="/Roupa_infantil_2.0/items/404 error/index.html" class="reviews-link">10 avaliações</a>
+            </div>
+          </div>
+
+
+          <!-- Card 2 -->
+
+          <div class="card">
+            <a href="/Roupa_infantil_2.0/items/404 error/index.html" target="_blank" class="main-link">
+              <h2 class="title">Casaco Msculino</h2>
+
+              <div class="image">
+                <img src="imagens/imagens_meninos/meninos_2.jpeg"
+                  alt="Small succulent with long, spikey leaves in a mug-like planter.">
+              </div>
+            </a>
+
+            <div class="badge">Oferta</div>
+
+            <div class="price">
+              <span class="new-price">R$29.49</span>
+              <span class="original-price">
+                <span class="sr-only">Originally:</span>
+                R$39.00
+              </span>
+            </div>
+
+            <div class="rating">
+              <span class="sr-only">Rating: 4 out of 5 stars</span>
+              <span class="fas fa-star" aria-hidden="true"></span>
+              <span class="fas fa-star" aria-hidden="true"></span>
+              <span class="fas fa-star" aria-hidden="true"></span>
+              <span class="fas fa-star" aria-hidden="true"></span>
+              <span class="far fa-star" aria-hidden="true"></span>
+
+              <a href="/Roupa_infantil_2.0/items/404 error/index.html" class="reviews-link">30 avaliações</a>
+            </div>
+          </div>
+
+
+          <!-- Card 3 -->
+
+          <div class="card">
+            <a href="/Roupa_infantil_2.0/items/404 error/index.html" target="_blank" class="main-link">
+              <h2 class="title">Roupa de verão</h2>
+
+              <div class="image">
+                <img src="imagens/imagens_meninos/meninos_3.jpeg"
+                  alt="Small succulent with long, spikey leaves in a mug-like planter.">
+              </div>
+            </a>
+
+            <div class="badge">Oferta</div>
+
+            <div class="price">
+              <span class="new-price">R$12.99</span>
+              <span class="original-price">
+                <span class="sr-only">Originally:</span>
+                R$15.99
+              </span>
+            </div>
+
+            <div class="rating">
+              <span class="sr-only">Rating: 2 out of 5 stars</span>
+              <span class="fas fa-star" aria-hidden="true"></span>
+              <span class="fas fa-star" aria-hidden="true"></span>
+              <span class="far fa-star" aria-hidden="true"></span>
+              <span class="far fa-star" aria-hidden="true"></span>
+              <span class="far fa-star" aria-hidden="true"></span>
+
+              <a href="/Roupa_infantil_2.0/items/404 error/index.html" class="reviews-link">20 avaliações</a>
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+
+          <div class="card">
+            <a href="/Roupa_infantil_2.0/items/404 error/index.html" target="_blank" class="main-link">
+              <h2 class="title">Estilo de festa</h2>
+
+              <div class="image">
+                <img src="imagens/imagens_meninas/meninas_1.jpg"
+                  alt="Small succulent with long, spikey leaves in a mug-like planter.">
+              </div>
+            </a>
+
+            <div class="badge">Oferta</div>
+
+            <div class="price">
+              <span class="new-price">R$49.99</span>
+              <span class="original-price">
+                <span class="sr-only">Originally:</span>
+                R$65.99
+              </span>
+            </div>
+
+            <div class="rating">
+              <span class="sr-only">Rating: 5 out of 5 stars</span>
+              <span class="fas fa-star" aria-hidden="true"></span>
+              <span class="fas fa-star" aria-hidden="true"></span>
+              <span class="fas fa-star" aria-hidden="true"></span>
+              <span class="fas fa-star" aria-hidden="true"></span>
+              <span class="fas fa-star" aria-hidden="true"></span>
+
+              <a href="/Roupa_infantil_2.0/items/404 error/index.html" class="reviews-link">37 avaliações</a>
+            </div>
+          </div>
+
+          <!-- Card 5 -->
+
+          <div class="card">
+            <a href="/Roupa_infantil_2.0/items/404 error/index.html" target="_blank" class="main-link">
+              <h2 class="title">Moda Feminina</h2>
+
+              <div class="image">
+                <img src="imagens/imagens_meninas/meninas_1.jpg"
+                  alt="Small succulent with long, spikey leaves in a mug-like planter.">
+              </div>
+            </a>
+
+            <div class="badge">Oferta</div>
+
+            <div class="price">
+              <span class="new-price">R$10.99</span>
+              <span class="original-price">
+                <span class="sr-only">Originally:</span>
+                R$65.99
+              </span>
+            </div>
+
+            <div class="rating">
+              <span class="sr-only">Rating: 5 out of 5 stars</span>
+              <span class="fas fa-star" aria-hidden="true"></span>
+              <span class="fas fa-star" aria-hidden="true"></span>
+              <span class="fas fa-star" aria-hidden="true"></span>
+              <span class="fas fa-star" aria-hidden="true"></span>
+              <span class="fas fa-star" aria-hidden="true"></span>
+
+              <a href="/Roupa_infantil_2.0/items/404 error/index.html" class="reviews-link">39 avaliações</a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
+  <!-- fim Aba de ofertas -->
 
 
-  <!-- Jquery -->
+  <!-- inicio Aba de Meninos -->
 
-  <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>   <!--  É obrigatorio ter para o preloder funcionar-->
+  <div class="aba_meninos">
+      <div id="meninos" class="catalogo_1">
+        <h1>Meninos</h1>
+    </div>
+  </div>    
 
-    <!-- Javacrispt  -->
-  <script src="js/carousel/carousel.js"></script>
-  <script src="js/carousel/estrela.js"></script>
-  <script src="js/carousel/preloder.js"></script>
+
+        <!-- Jquery -->
+
+        <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+        <!--  É obrigatorio ter para o preloder funcionar-->
+
+        <!-- Javacrispt  -->
+        <script type="text/javascript"
+          src="https://cdn.jsdelivr.net/npm/@accessible360/accessible-slick@1.0.1/slick/slick.min.js"></script>
+        <script src="js/carousel/caro.js"></script>
+        <script src="js/carousel/estrela.js"></script>
+        <script src="js/carousel/preloder.js"></script>
 
 </body>
 

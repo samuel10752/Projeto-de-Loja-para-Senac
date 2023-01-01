@@ -1,30 +1,25 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:300);
 
-
 html {
-
     /* scroll suave*/
 
     scroll-behavior: smooth;
 }
 
-*{
+* {
     padding: 0;
     margin: 0;
-    }
+}
 
+/* início do preloade */
 
-    /* início do preloade */
-
-.loader_bg{
+.loader_bg {
     position: fixed;
     z-index: 999999;
-    background: rgb(118, 116, 116)
-    no-repeat center center;	
+    background: rgb(118, 116, 116) no-repeat center center;
     width: 100%;
     height: 100%;
-
-} 
+}
 
 .loader {
     border: 0 solid transparent;
@@ -36,9 +31,10 @@ html {
     left: calc(50vh - 75px);
 }
 
-.loader:before, .loader:after{
-    content: '';
-    border: 1em solid #ff5733;	
+.loader:before,
+.loader:after {
+    content: "";
+    border: 1em solid #ff5733;
     border-radius: 50%;
     width: inherit;
     height: inherit;
@@ -50,31 +46,28 @@ html {
 }
 
 .loader:before {
-    animation-delay: .5s;	
+    animation-delay: 0.5s;
 }
 
 @keyframes loader {
-    0%{
+    0% {
         transform: scale(0);
         opacity: 0;
     }
 
-    50%{
+    50% {
         opacity: 1;
     }
-    100%{
+    100% {
         transform: scale(1);
         opacity: 0;
     }
 }
 
-
-    /* fim do preloade */
+/* fim do preloade */
 
 .navbar_cor {
-
     /* navbar_cor */
-
 
     position: absolute;
     width: 1864px;
@@ -82,23 +75,19 @@ html {
     left: 0px;
     top: 0px;
 
-    background: #D9D9D9;
+    background: #d9d9d9;
 }
 
 .navbar_img {
-
     /* navbar imagem_logo */
 
     position: absolute;
     left: 50.02px;
     top: 5px;
-
 }
 
 .navbar_text h3 {
-
     /* Uva Verde */
-
 
     position: absolute;
     width: 191px;
@@ -106,22 +95,18 @@ html {
     left: 120px;
     margin-top: 32px;
 
-    font-family: 'Inter';
+    font-family: "Inter";
     font-style: normal;
     font-weight: 700;
     font-size: clamp(2em, 1em + 3vw, 2.5em);
     line-height: 22px;
     /* identical to box height */
 
-
     color: #000000;
-
 }
 
 .navbar_text h4 {
-
     /* Compras online */
-
 
     position: absolute;
 
@@ -129,225 +114,178 @@ html {
     left: 125px;
     top: 59px;
 
-    font-family: 'Inter';
+    font-family: "Inter";
     font-style: normal;
     font-weight: 900;
     line-height: 22px;
     /* identical to box height */
 
-
     color: #000000;
-
 }
 
 .navbar_info h3 {
-
     /* navbar inicio */
-
 
     position: absolute;
     height: 22px;
     left: 890px;
     margin-top: 35px;
 
-    font-family: 'Inter';
+    font-family: "Inter";
     font-style: normal;
     font-weight: 700;
     font-size: 22px;
     line-height: 22px;
     /* identical to box height */
 
-
     color: #000000;
-
 }
 
 .navbar_clases h6 {
-
     /* navbar ofertas */
-
 
     position: absolute;
     height: 22px;
     left: 990px;
     margin-top: 35px;
 
-    font-family: 'Inter';
+    font-family: "Inter";
     font-style: normal;
     font-weight: 700;
     font-size: 22px;
     line-height: 22px;
     /* identical to box height */
 
-
     color: #000000;
-
 }
 
-
 .navbar_clases h5 {
-
     /* navbar meninos */
-
 
     position: absolute;
     height: 22px;
     left: 1100px;
     margin-top: 35px;
 
-    font-family: 'Inter';
+    font-family: "Inter";
     font-style: normal;
     font-weight: 700;
     font-size: 22px;
     line-height: 22px;
     /* identical to box height */
 
-
     color: #000000;
-
 }
 
-
 .navbar_clases h4 {
-
     /* navbar meninas */
-
 
     position: absolute;
     height: 22px;
     left: 1215px;
     margin-top: 35px;
 
-    font-family: 'Inter';
+    font-family: "Inter";
     font-style: normal;
     font-weight: 700;
     font-size: 22px;
     line-height: 22px;
     /* identical to box height */
 
-
     color: #000000;
-
 }
 
-
 .navbar_clases h3 {
-
     /* navbar calçados */
-
 
     position: absolute;
     height: 22px;
     left: 1330px;
     margin-top: 35px;
 
-    font-family: 'Inter';
+    font-family: "Inter";
     font-style: normal;
     font-weight: 700;
     font-size: 22px;
     line-height: 22px;
     /* identical to box height */
 
-
     color: #000000;
-
 }
 
 .navbar_clases h2 {
-
     /* navbar bebes */
-
 
     position: absolute;
     height: 22px;
     left: 1450px;
     margin-top: 35px;
 
-    font-family: 'Inter';
+    font-family: "Inter";
     font-style: normal;
     font-weight: 700;
     font-size: 22px;
     line-height: 22px;
     /* identical to box height */
 
-
     color: #000000;
-
 }
 
 .navbar_info h2 {
-
     /* navbar sobre */
-
 
     position: absolute;
     height: 22px;
     left: 1540px;
     margin-top: 35px;
 
-    font-family: 'Inter';
+    font-family: "Inter";
     font-style: normal;
     font-weight: 700;
     font-size: 22px;
     line-height: 22px;
     /* identical to box height */
 
-
     color: #000000;
-
 }
 
 .navbar_info h1 {
-
     /* navbar Contato */
-
 
     position: absolute;
     height: 22px;
     left: 1630px;
     margin-top: 35px;
 
-    font-family: 'Inter';
+    font-family: "Inter";
     font-style: normal;
     font-weight: 700;
     font-size: 22px;
     line-height: 22px;
     /* identical to box height */
 
-
     color: #000000;
-
 }
 
-
 .carrinho {
-
     /*icon de carrinho de compras ofertas da semana */
 
     position: absolute;
     left: 1755px;
     top: 25px;
-
-
 }
 
 .cards img {
-
     /* card somos */
-
 
     position: absolute;
     width: 730px;
     height: 663px;
     left: 50px;
     top: 120px;
-
-
 }
 
-
 .cor {
-
     /* card cor */
 
     position: absolute;
@@ -360,31 +298,25 @@ html {
 }
 
 .cards h1 {
-
     /* titulo somos */
-
 
     position: absolute;
     width: 250px;
     left: 251px;
     top: 302px;
 
-    font-family: 'Inter';
+    font-family: "Inter";
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 68px;
     /* identical to box height */
 
-
-    color: #FFFFFF;
-
+    color: #ffffff;
 }
 
 .cards p {
-
     /* texto de somos */
-
 
     position: absolute;
     width: 700px;
@@ -392,15 +324,14 @@ html {
     left: 10px;
     top: 413px;
 
-    font-family: 'Inter';
+    font-family: "Inter";
     font-style: normal;
     text-align: center;
     font-weight: 400;
     font-size: 25px;
     line-height: 42px;
 
-    color: #FFFFFF;
-
+    color: #ffffff;
 }
 
 /* animação do ofertas  */
@@ -438,9 +369,7 @@ html {
 
 /* Fim da animação do botão de comprar  */
 
-
 .card_1 img {
-
     /* card Bebês */
 
     position: absolute;
@@ -451,9 +380,7 @@ html {
 }
 
 .cor_1 {
-
     /* card Bebês*/
-
 
     position: absolute;
     width: 500px;
@@ -465,9 +392,7 @@ html {
 }
 
 .card_1 h1 {
-
     /*Titulo Bebês */
-
 
     position: absolute;
     width: 95px;
@@ -475,20 +400,17 @@ html {
     left: 200px;
     top: 100px;
 
-    font-family: 'Inter';
+    font-family: "Inter";
     font-style: normal;
     font-weight: 700;
     font-size: 50px;
     line-height: 60px;
 
-    color: #FFFFFF;
-
+    color: #ffffff;
 }
 
 .card_1 p {
-
     /*Subtitulo Bebês */
-
 
     position: absolute;
     width: 425px;
@@ -496,14 +418,13 @@ html {
     left: 80px;
     top: 160px;
 
-    font-family: 'Inter';
+    font-family: "Inter";
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
     line-height: 60px;
 
-    color: #FFFFFF;
-
+    color: #ffffff;
 }
 
 /* animação do botão de Ofertas  */
@@ -537,13 +458,9 @@ html {
     outline-offset: 20px;
 }
 
-
 /* Fim da animação do botão de Ofertas  */
 
-
-
 .card_2 img {
-
     /* card Meninas */
 
     position: absolute;
@@ -554,9 +471,7 @@ html {
 }
 
 .cor_2 {
-
     /* card Meninas*/
-
 
     position: absolute;
     width: 500px;
@@ -568,9 +483,7 @@ html {
 }
 
 .card_2 h1 {
-
     /*Titulo Meninas */
-
 
     position: absolute;
     width: 95px;
@@ -578,20 +491,17 @@ html {
     left: 170px;
     top: 100px;
 
-    font-family: 'Inter';
+    font-family: "Inter";
     font-style: normal;
     font-weight: 700;
     font-size: 50px;
     line-height: 60px;
 
-    color: #FFFFFF;
-
+    color: #ffffff;
 }
 
 .card_2 p {
-
     /*Subtitulo Meninas */
-
 
     position: absolute;
     width: 425px;
@@ -599,14 +509,13 @@ html {
     left: 50px;
     top: 160px;
 
-    font-family: 'Inter';
+    font-family: "Inter";
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
     line-height: 60px;
 
-    color: #FFFFFF;
-
+    color: #ffffff;
 }
 
 /* animação do botão de Ofertas   */
@@ -640,15 +549,10 @@ html {
     outline-offset: 20px;
 }
 
-
 /* Fim da animação do botão de Ofertas  */
 
-
-
 .card_3 img {
-
     /* card Meninos  */
-
 
     position: absolute;
     width: 500px;
@@ -657,26 +561,20 @@ html {
     top: 120px;
 }
 
-
 .cor_3 {
-
     /* card Meninos */
-
 
     position: absolute;
     width: 500px;
     height: 320px;
     left: 1330px;
     top: 120px;
-
 
     background: rgba(0, 0, 0, 0.5);
 }
 
 .card_3 h1 {
-
     /*Titulo Meninos */
-
 
     position: absolute;
     width: 95px;
@@ -684,20 +582,17 @@ html {
     left: 180px;
     top: 100px;
 
-    font-family: 'Inter';
+    font-family: "Inter";
     font-style: normal;
     font-weight: 700;
     font-size: 50px;
     line-height: 60px;
 
-    color: #FFFFFF;
-
+    color: #ffffff;
 }
 
 .card_3 p {
-
     /*Subtitulo  Meninos*/
-
 
     position: absolute;
     width: 425px;
@@ -705,16 +600,14 @@ html {
     left: 50px;
     top: 160px;
 
-    font-family: 'Inter';
+    font-family: "Inter";
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
     line-height: 60px;
 
-    color: #FFFFFF;
-
+    color: #ffffff;
 }
-
 
 /* animação do botão de Ofertas   */
 
@@ -747,15 +640,10 @@ html {
     outline-offset: 20px;
 }
 
-
 /* Fim da animação do botão de Ofertas   */
 
-
-
 .card_4 img {
-
     /* card Calçados */
-
 
     position: absolute;
     width: 500px;
@@ -764,46 +652,38 @@ html {
     top: 463px;
 }
 
-
 .cor_4 {
-
     /* card Calçados */
-
 
     position: absolute;
     width: 500px;
     height: 320px;
     left: 1330px;
-    top: 463px; 
+    top: 463px;
 
     background: rgba(0, 0, 0, 0.5);
 }
 
 .card_4 h1 {
-
     /*Titulo Calçados */
-
 
     position: absolute;
     width: 95px;
     height: 21.5px;
-    left: 180px;
+    left: 170px;
     top: 100px;
 
-    font-family: 'Inter';
+    font-family: "Inter";
     font-style: normal;
     font-weight: 700;
     font-size: 50px;
     line-height: 60px;
 
-    color: #FFFFFF;
-
+    color: #ffffff;
 }
 
 .card_4 p {
-
     /*Subtitulo Calçados*/
-
 
     position: absolute;
     width: 425px;
@@ -811,16 +691,14 @@ html {
     left: 50px;
     top: 160px;
 
-    font-family: 'Inter';
+    font-family: "Inter";
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
     line-height: 60px;
 
-    color: #FFFFFF;
-
+    color: #ffffff;
 }
-
 
 /* animação do botão de Ofertas  */
 
@@ -853,27 +731,21 @@ html {
     outline-offset: 20px;
 }
 
-
 /* Fim da animação do botão de Ofertas   */
 
 .cor_pri {
-
     /* cor pri */
 
     position: absolute;
-    width: 1864px; 
-    height: 1000px;
+    width: 1864px;
+    height: 2000px;
     top: 830px;
 
-    background: #D9D9D9;
-
-
+    background: #d9d9d9;
 }
 
 .catalogo h1 {
-
     /*Titulo ofertas da semana */
-
 
     position: absolute;
     width: 595px;
@@ -881,20 +753,17 @@ html {
     left: 60px;
     top: 60px;
 
-    font-family: 'Inter';
+    font-family: "Inter";
     font-style: normal;
     font-weight: 700;
     font-size: 50px;
     line-height: 60px;
 
     color: #000000;
-
 }
 
 .catalogo p {
-
     /*Subtitulo ofertas da semana*/
-
 
     position: absolute;
     width: 595px;
@@ -902,14 +771,200 @@ html {
     left: 60px;
     top: 110px;
 
-    font-family: 'Inter';
+    font-family: "Inter";
     font-style: normal;
     font-weight: 700;
     font-size: 27px;
     line-height: 60px;
 
     color: #000000;
-
 }
 
+/* Inicio do teste do carousel */
 
+.card-slider {
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 2%;
+    max-width: 1770px;
+    /** Main link */
+    /** Product title */
+    /** Product image */
+    /** Product description */
+    /** Floating "sale" badge */
+    /** Price */
+    /** Rating */
+    /** "30 reviews" link next to stars */
+    /** Hover state = add box shadow, underline the title */
+}
+@media screen and (max-width: 1024px) {
+    .card-slider {
+        width: 80%;
+    }
+}
+.card-slider .slick-prev-icon,
+.card-slider .slick-next-icon {
+    color: black;
+}
+.card-slider .slick-slide {
+    padding: 0 10px;
+}
+.card-slider .card {
+    position: relative;
+    display: flex !important;
+    flex-direction: column;
+    height: 550px;
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    background-color: white;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.9);
+    transition: all 0.1s linear;
+}
+@media screen and (max-width: 600px) {
+    .card-slider .card {
+        height: auto;
+    }
+}
+.card-slider .card .main-link {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+}
+.card-slider .card .main-link:focus {
+    outline: none;
+}
+.card-slider .card .main-link:focus .title {
+    outline: 3px dashed orange;
+    outline-offset: -4px;
+    color: royalblue;
+    text-decoration: underline;
+}
+.card-slider .card .title {
+    color: #000;
+    margin: 0;
+    padding: 10px 10px 5px 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.card-slider .card .title:hover {
+    text-decoration: underline;
+}
+.card-slider .card .image {
+    /** Visually place the image above all other content (like the heading) in the parent flex container (.card). */
+    order: -1;
+    position: relative;
+    height: 450px;
+    padding: 2px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-slider .card .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: grayscale(0.5);
+    transition: all 0.3s ease-in-out;
+}
+.card-slider .card .image:hover img {
+    width: 110%;
+    height: 110%;
+}
+.card-slider .card .description {
+    margin: 7px 10px 15px 10px;
+    font-size: 14px;
+    opacity: 0.8;
+}
+.card-slider .card .badge {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    z-index: 1;
+    padding: 5px 10px;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    background-color: #c80000;
+}
+.card-slider .card .price {
+    padding-left: 10px;
+}
+.card-slider .card .price .new-price {
+    font-weight: bold;
+}
+.card-slider .card .price .original-price {
+    margin-left: 5px;
+    font-size: 14px;
+    font-style: italic;
+    opacity: 0.5;
+    text-decoration: line-through;
+}
+.card-slider .card .rating {
+    margin: 10px 0 15px 10px;
+    color: orange;
+    font-size: 12px;
+}
+.card-slider .card .rating .reviews-link {
+    color: rgba(0, 0, 0, 0.6);
+    margin-left: 5px;
+}
+.card-slider .card .rating .reviews-link:hover {
+    color: black;
+}
+.card-slider .card .rating .reviews-link:focus {
+    color: royalblue;
+    outline: 3px dotted royalblue;
+    outline-offset: 2px;
+}
+.card-slider .card:hover {
+    border-color: rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
+}
+.card-slider .card:hover .image img,
+.card-slider .card:focus .image img {
+    filter: grayscale(0);
+}
+.card-slider .card a:focus {
+    outline: none;
+}
+/** Demo only */
+.note {
+    text-align: center;
+    font-size: 14px;
+    max-width: 960px;
+    padding: 40px 20px;
+    margin: 0 auto;
+    opacity: 0.8;
+}
+.note a {
+    color: black;
+    font-weight: bold;
+}
+.note a:hover,
+.note a:focus {
+    color: royalblue;
+}
+
+/* Fim do teste do carousel */
+
+.catalogo_1 h1 {
+
+    /*Titulo ABA Meninos */
+
+    position: absolute;
+    width: 595px;
+    height: 21.5px;
+    left: 60px;
+    top: 1600px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 60px;
+
+    color: #000000;
+}
