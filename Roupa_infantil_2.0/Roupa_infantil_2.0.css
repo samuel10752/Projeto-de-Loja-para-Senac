@@ -119,10 +119,11 @@ html {
     /* navbar_cor */
 
     position: absolute;
-    width: 1864px;
-    height: 90px;
+    width: 100%;
+    height: 10vh;
     left: 0px;
     top: 0px;
+    overflow: hidden;
 
     background: #d9d9d9;
 }
@@ -1598,3 +1599,5 @@ html {
 }
 
 /* Fim do teste do carousel */
+
+
