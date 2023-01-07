@@ -1,0 +1,1140 @@
+.cor_pri {
+    /* cor pri */
+
+    position: absolute;
+    width: 1864px;
+    height: 6000px;
+    top: 830px;
+
+    background: #d9d9d9;
+}
+
+.catalogo h1 {
+    /*Titulo ofertas da semana */
+
+    position: absolute;
+    width: 595px;
+    height: 21.5px;
+    left: 60px;
+    top: 60px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+
+    color: #000000;
+}
+
+.catalogo p {
+    /*Subtitulo ofertas da semana*/
+
+    position: absolute;
+    width: 595px;
+    height: 21.5px;
+    left: 60px;
+    top: 110px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 60px;
+
+    color: #000000;
+}
+
+/* Inicio do teste do carousel */
+
+.card-slider {
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 2%;
+    max-width: 1770px;
+    /** Main link */
+    /** Product title */
+    /** Product image */
+    /** Product description */
+    /** Floating "sale" badge */
+    /** Price */
+    /** Rating */
+    /** "30 reviews" link next to stars */
+    /** Hover state = add box shadow, underline the title */
+}
+@media screen and (max-width: 1024px) {
+    .card-slider {
+        width: 80%;
+    }
+}
+.card-slider .slick-prev-icon,
+.card-slider .slick-next-icon {
+    color: black;
+}
+.card-slider .slick-slide {
+    padding: 0 10px;
+}
+.card-slider .card {
+    position: relative;
+    display: flex !important;
+    flex-direction: column;
+    height: 560px;
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    background-color: white;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.9);
+    transition: all 0.1s linear;
+}
+@media screen and (max-width: 600px) {
+    .card-slider .card {
+        height: auto;
+    }
+}
+.card-slider .card .main-link {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+}
+.card-slider .card .main-link:focus {
+    outline: none;
+}
+.card-slider .card .main-link:focus .title {
+    outline: 3px dashed orange;
+    outline-offset: -4px;
+    color: royalblue;
+    text-decoration: underline;
+}
+.card-slider .card .title {
+    color: #000;
+    margin: 0;
+    padding: 10px 10px 5px 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.card-slider .card .title:hover {
+    text-decoration: underline;
+}
+.card-slider .card .image {
+    /** Visually place the image above all other content (like the heading) in the parent flex container (.card). */
+    order: -1;
+    position: relative;
+    height: 470px;
+    padding: 2px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-slider .card .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: grayscale(0.5);
+    transition: all 0.3s ease-in-out;
+}
+.card-slider .card .image:hover img {
+    width: 110%;
+    height: 110%;
+}
+.card-slider .card .description {
+    margin: 7px 10px 15px 10px;
+    font-size: 14px;
+    opacity: 0.8;
+}
+.card-slider .card .badge {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    z-index: 1;
+    padding: 5px 10px;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    background-color: #c80000;
+}
+.card-slider .card .price {
+    padding-left: 10px;
+}
+.card-slider .card .price .new-price {
+    font-weight: bold;
+}
+.card-slider .card .price .original-price {
+    margin-left: 5px;
+    font-size: 14px;
+    font-style: italic;
+    opacity: 0.5;
+    text-decoration: line-through;
+}
+.card-slider .card .rating {
+    margin: 10px 0 15px 10px;
+    color: orange;
+    font-size: 12px;
+}
+.card-slider .card .rating .reviews-link {
+    color: rgba(0, 0, 0, 0.6);
+    margin-left: 5px;
+}
+.card-slider .card .rating .reviews-link:hover {
+    color: black;
+}
+.card-slider .card .rating .reviews-link:focus {
+    color: royalblue;
+    outline: 3px dotted royalblue;
+    outline-offset: 2px;
+}
+.card-slider .card:hover {
+    border-color: rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
+}
+.card-slider .card:hover .image img,
+.card-slider .card:focus .image img {
+    filter: grayscale(0);
+}
+.card-slider .card a:focus {
+    outline: none;
+}
+/** Demo only */
+.note {
+    text-align: center;
+    font-size: 14px;
+    max-width: 960px;
+    padding: 40px 20px;
+    margin: 0 auto;
+    opacity: 0.8;
+}
+.note a {
+    color: black;
+    font-weight: bold;
+}
+.note a:hover,
+.note a:focus {
+    color: royalblue;
+}
+
+/* Fim do teste do carousel */
+
+.cor_segun{
+    /* cor segun */
+
+    position: absolute;
+    width: 1864px;
+    height: 300px;
+    top: 1600px;
+
+}
+
+.catalogo_1 h1 {
+
+    /*Titulo ABA Meninos */
+
+    position: absolute;
+    width: 240px;
+    height: 61.5px;
+    left: 50px;
+    top: 1700px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 60px;
+
+    color: #000000;
+
+
+}
+
+.card-slider {
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 2%;
+    max-width: 1770px;
+    /** Main link */
+    /** Product title */
+    /** Product image */
+    /** Product description */
+    /** Floating "sale" badge */
+    /** Price */
+    /** Rating */
+    /** "30 reviews" link next to stars */
+    /** Hover state = add box shadow, underline the title */
+}
+@media screen and (max-width: 1024px) {
+    .card-slider {
+        width: 80%;
+    }
+}
+.card-slider .slick-prev-icon,
+.card-slider .slick-next-icon {
+    color: black;
+}
+.card-slider .slick-slide {
+    padding: 0 10px;
+}
+.card-slider .card {
+    position: relative;
+    display: flex !important;
+    flex-direction: column;
+    height: 560px;
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    background-color: white;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.9);
+    transition: all 0.1s linear;
+}
+@media screen and (max-width: 600px) {
+    .card-slider .card {
+        height: auto;
+    }
+}
+.card-slider .card .main-link {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+}
+.card-slider .card .main-link:focus {
+    outline: none;
+}
+.card-slider .card .main-link:focus .title {
+    outline: 3px dashed orange;
+    outline-offset: -4px;
+    color: royalblue;
+    text-decoration: underline;
+}
+.card-slider .card .title {
+    color: #000;
+    margin: 0;
+    padding: 10px 10px 5px 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.card-slider .card .title:hover {
+    text-decoration: underline;
+}
+.card-slider .card .image {
+    /** Visually place the image above all other content (like the heading) in the parent flex container (.card). */
+    order: -1;
+    position: relative;
+    height: 470px;
+    padding: 2px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-slider .card .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: grayscale(0.5);
+    transition: all 0.3s ease-in-out;
+}
+.card-slider .card .image:hover img {
+    width: 110%;
+    height: 110%;
+}
+.card-slider .card .description {
+    margin: 7px 10px 15px 10px;
+    font-size: 14px;
+    opacity: 0.8;
+}
+.card-slider .card .badge {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    z-index: 1;
+    padding: 5px 10px;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    background-color: #c80000;
+}
+.card-slider .card .price {
+    padding-left: 10px;
+}
+.card-slider .card .price .new-price {
+    font-weight: bold;
+}
+.card-slider .card .price .original-price {
+    margin-left: 5px;
+    font-size: 14px;
+    font-style: italic;
+    opacity: 0.5;
+    text-decoration: line-through;
+}
+.card-slider .card .rating {
+    margin: 10px 0 15px 10px;
+    color: orange;
+    font-size: 12px;
+}
+.card-slider .card .rating .reviews-link {
+    color: rgba(0, 0, 0, 0.6);
+    margin-left: 5px;
+}
+.card-slider .card .rating .reviews-link:hover {
+    color: black;
+}
+.card-slider .card .rating .reviews-link:focus {
+    color: royalblue;
+    outline: 3px dotted royalblue;
+    outline-offset: 2px;
+}
+.card-slider .card:hover {
+    border-color: rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
+}
+.card-slider .card:hover .image img,
+.card-slider .card:focus .image img {
+    filter: grayscale(0);
+}
+.card-slider .card a:focus {
+    outline: none;
+}
+/** Demo only */
+.note {
+    text-align: center;
+    font-size: 14px;
+    max-width: 960px;
+    padding: 40px 20px;
+    margin: 0 auto;
+    opacity: 0.8;
+}
+.note a {
+    color: black;
+    font-weight: bold;
+}
+.note a:hover,
+.note a:focus {
+    color: royalblue;
+}
+
+/* Fim do teste do carousel */
+
+
+.cor_terce{
+    /* cor segun */
+
+    position: absolute;
+    width: 1864px;
+    height: 300px;
+    top: 2400px;
+
+}
+
+.catalogo_2 h1 {
+
+    /*Titulo ABA Meninas */
+
+    position: absolute;
+    width: 240px;
+    height: 61.5px;
+    left: 50px;
+    top: 2500px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 60px;
+
+    color: #000000;
+
+
+}
+
+.card-slider {
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 2%;
+    max-width: 1770px;
+    /** Main link */
+    /** Product title */
+    /** Product image */
+    /** Product description */
+    /** Floating "sale" badge */
+    /** Price */
+    /** Rating */
+    /** "30 reviews" link next to stars */
+    /** Hover state = add box shadow, underline the title */
+}
+@media screen and (max-width: 1024px) {
+    .card-slider {
+        width: 80%;
+    }
+}
+.card-slider .slick-prev-icon,
+.card-slider .slick-next-icon {
+    color: black;
+}
+.card-slider .slick-slide {
+    padding: 0 10px;
+}
+.card-slider .card {
+    position: relative;
+    display: flex !important;
+    flex-direction: column;
+    height: 560px;
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    background-color: white;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.9);
+    transition: all 0.1s linear;
+}
+@media screen and (max-width: 600px) {
+    .card-slider .card {
+        height: auto;
+    }
+}
+.card-slider .card .main-link {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+}
+.card-slider .card .main-link:focus {
+    outline: none;
+}
+.card-slider .card .main-link:focus .title {
+    outline: 3px dashed orange;
+    outline-offset: -4px;
+    color: royalblue;
+    text-decoration: underline;
+}
+.card-slider .card .title {
+    color: #000;
+    margin: 0;
+    padding: 10px 10px 5px 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.card-slider .card .title:hover {
+    text-decoration: underline;
+}
+.card-slider .card .image {
+    /** Visually place the image above all other content (like the heading) in the parent flex container (.card). */
+    order: -1;
+    position: relative;
+    height: 470px;
+    padding: 2px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-slider .card .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: grayscale(0.5);
+    transition: all 0.3s ease-in-out;
+}
+.card-slider .card .image:hover img {
+    width: 110%;
+    height: 110%;
+}
+.card-slider .card .description {
+    margin: 7px 10px 15px 10px;
+    font-size: 14px;
+    opacity: 0.8;
+}
+.card-slider .card .badge {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    z-index: 1;
+    padding: 5px 10px;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    background-color: #c80000;
+}
+.card-slider .card .price {
+    padding-left: 10px;
+}
+.card-slider .card .price .new-price {
+    font-weight: bold;
+}
+.card-slider .card .price .original-price {
+    margin-left: 5px;
+    font-size: 14px;
+    font-style: italic;
+    opacity: 0.5;
+    text-decoration: line-through;
+}
+.card-slider .card .rating {
+    margin: 10px 0 15px 10px;
+    color: orange;
+    font-size: 12px;
+}
+.card-slider .card .rating .reviews-link {
+    color: rgba(0, 0, 0, 0.6);
+    margin-left: 5px;
+}
+.card-slider .card .rating .reviews-link:hover {
+    color: black;
+}
+.card-slider .card .rating .reviews-link:focus {
+    color: royalblue;
+    outline: 3px dotted royalblue;
+    outline-offset: 2px;
+}
+.card-slider .card:hover {
+    border-color: rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
+}
+.card-slider .card:hover .image img,
+.card-slider .card:focus .image img {
+    filter: grayscale(0);
+}
+.card-slider .card a:focus {
+    outline: none;
+}
+/** Demo only */
+.note {
+    text-align: center;
+    font-size: 14px;
+    max-width: 960px;
+    padding: 40px 20px;
+    margin: 0 auto;
+    opacity: 0.8;
+}
+.note a {
+    color: black;
+    font-weight: bold;
+}
+.note a:hover,
+.note a:focus {
+    color: royalblue;
+}
+
+/* Fim do teste do carousel */
+
+
+.cor_quart{
+    /* cor quart */
+
+    position: absolute;
+    width: 1864px;
+    height: 300px;
+    top: 4100px;
+
+}
+
+.catalogo_3 h1 {
+
+    /*Titulo ABA calçados */
+
+    position: absolute;
+    width: 240px;
+    height: 61.5px;
+    left: 50px;
+    top: 4200px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 60px;
+
+    color: #000000;
+
+
+}
+
+
+.card-slider {
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 2%;
+    max-width: 1770px;
+    /** Main link */
+    /** Product title */
+    /** Product image */
+    /** Product description */
+    /** Floating "sale" badge */
+    /** Price */
+    /** Rating */
+    /** "30 reviews" link next to stars */
+    /** Hover state = add box shadow, underline the title */
+}
+@media screen and (max-width: 1024px) {
+    .card-slider {
+        width: 80%;
+    }
+}
+.card-slider .slick-prev-icon,
+.card-slider .slick-next-icon {
+    color: black;
+}
+.card-slider .slick-slide {
+    padding: 0 10px;
+}
+.card-slider .card {
+    position: relative;
+    display: flex !important;
+    flex-direction: column;
+    height: 560px;
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    background-color: white;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.9);
+    transition: all 0.1s linear;
+}
+@media screen and (max-width: 600px) {
+    .card-slider .card {
+        height: auto;
+    }
+}
+.card-slider .card .main-link {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+}
+.card-slider .card .main-link:focus {
+    outline: none;
+}
+.card-slider .card .main-link:focus .title {
+    outline: 3px dashed orange;
+    outline-offset: -4px;
+    color: royalblue;
+    text-decoration: underline;
+}
+.card-slider .card .title {
+    color: #000;
+    margin: 0;
+    padding: 10px 10px 5px 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.card-slider .card .title:hover {
+    text-decoration: underline;
+}
+.card-slider .card .image {
+    /** Visually place the image above all other content (like the heading) in the parent flex container (.card). */
+    order: -1;
+    position: relative;
+    height: 470px;
+    padding: 2px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-slider .card .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: grayscale(0.5);
+    transition: all 0.3s ease-in-out;
+}
+.card-slider .card .image:hover img {
+    width: 110%;
+    height: 110%;
+}
+.card-slider .card .description {
+    margin: 7px 10px 15px 10px;
+    font-size: 14px;
+    opacity: 0.8;
+}
+.card-slider .card .badge {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    z-index: 1;
+    padding: 5px 10px;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    background-color: #c80000;
+}
+.card-slider .card .price {
+    padding-left: 10px;
+}
+.card-slider .card .price .new-price {
+    font-weight: bold;
+}
+.card-slider .card .price .original-price {
+    margin-left: 5px;
+    font-size: 14px;
+    font-style: italic;
+    opacity: 0.5;
+    text-decoration: line-through;
+}
+.card-slider .card .rating {
+    margin: 10px 0 15px 10px;
+    color: orange;
+    font-size: 12px;
+}
+.card-slider .card .rating .reviews-link {
+    color: rgba(0, 0, 0, 0.6);
+    margin-left: 5px;
+}
+.card-slider .card .rating .reviews-link:hover {
+    color: black;
+}
+.card-slider .card .rating .reviews-link:focus {
+    color: royalblue;
+    outline: 3px dotted royalblue;
+    outline-offset: 2px;
+}
+.card-slider .card:hover {
+    border-color: rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
+}
+.card-slider .card:hover .image img,
+.card-slider .card:focus .image img {
+    filter: grayscale(0);
+}
+.card-slider .card a:focus {
+    outline: none;
+}
+/** Demo only */
+.note {
+    text-align: center;
+    font-size: 14px;
+    max-width: 960px;
+    padding: 40px 20px;
+    margin: 0 auto;
+    opacity: 0.8;
+}
+.note a {
+    color: black;
+    font-weight: bold;
+}
+.note a:hover,
+.note a:focus {
+    color: royalblue;
+}
+
+/* Fim do teste do carousel */
+
+
+
+.cor_quit{
+    /* cor quit */
+
+    position: absolute;
+    width: 1864px;
+    height: 300px;
+    top: 5000px;
+
+}
+
+.catalogo_4 h1 {
+
+    /*Titulo ABA bebes */
+
+    position: absolute;
+    width: 240px;
+    height: 61.5px;
+    left: 50px;
+    top: 5100px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 60px;
+
+    color: #000000;
+
+
+}
+
+
+.card-slider {
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 2%;
+    max-width: 1770px;
+    /** Main link */
+    /** Product title */
+    /** Product image */
+    /** Product description */
+    /** Floating "sale" badge */
+    /** Price */
+    /** Rating */
+    /** "30 reviews" link next to stars */
+    /** Hover state = add box shadow, underline the title */
+}
+@media screen and (max-width: 1024px) {
+    .card-slider {
+        width: 80%;
+    }
+}
+.card-slider .slick-prev-icon,
+.card-slider .slick-next-icon {
+    color: black;
+}
+.card-slider .slick-slide {
+    padding: 0 10px;
+}
+.card-slider .card {
+    position: relative;
+    display: flex !important;
+    flex-direction: column;
+    height: 560px;
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    background-color: white;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.9);
+    transition: all 0.1s linear;
+}
+@media screen and (max-width: 600px) {
+    .card-slider .card {
+        height: auto;
+    }
+}
+.card-slider .card .main-link {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+}
+.card-slider .card .main-link:focus {
+    outline: none;
+}
+.card-slider .card .main-link:focus .title {
+    outline: 3px dashed orange;
+    outline-offset: -4px;
+    color: royalblue;
+    text-decoration: underline;
+}
+.card-slider .card .title {
+    color: #000;
+    margin: 0;
+    padding: 10px 10px 5px 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.card-slider .card .title:hover {
+    text-decoration: underline;
+}
+.card-slider .card .image {
+    /** Visually place the image above all other content (like the heading) in the parent flex container (.card). */
+    order: -1;
+    position: relative;
+    height: 470px;
+    padding: 2px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-slider .card .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: grayscale(0.5);
+    transition: all 0.3s ease-in-out;
+}
+.card-slider .card .image:hover img {
+    width: 110%;
+    height: 110%;
+}
+.card-slider .card .description {
+    margin: 7px 10px 15px 10px;
+    font-size: 14px;
+    opacity: 0.8;
+}
+.card-slider .card .badge {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    z-index: 1;
+    padding: 5px 10px;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    background-color: #c80000;
+}
+.card-slider .card .price {
+    padding-left: 10px;
+}
+.card-slider .card .price .new-price {
+    font-weight: bold;
+}
+.card-slider .card .price .original-price {
+    margin-left: 5px;
+    font-size: 14px;
+    font-style: italic;
+    opacity: 0.5;
+    text-decoration: line-through;
+}
+.card-slider .card .rating {
+    margin: 10px 0 15px 10px;
+    color: orange;
+    font-size: 12px;
+}
+.card-slider .card .rating .reviews-link {
+    color: rgba(0, 0, 0, 0.6);
+    margin-left: 5px;
+}
+.card-slider .card .rating .reviews-link:hover {
+    color: black;
+}
+.card-slider .card .rating .reviews-link:focus {
+    color: royalblue;
+    outline: 3px dotted royalblue;
+    outline-offset: 2px;
+}
+.card-slider .card:hover {
+    border-color: rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
+}
+.card-slider .card:hover .image img,
+.card-slider .card:focus .image img {
+    filter: grayscale(0);
+}
+.card-slider .card a:focus {
+    outline: none;
+}
+/** Demo only */
+.note {
+    text-align: center;
+    font-size: 14px;
+    max-width: 960px;
+    padding: 40px 20px;
+    margin: 0 auto;
+    opacity: 0.8;
+}
+.note a {
+    color: black;
+    font-weight: bold;
+}
+.note a:hover,
+.note a:focus {
+    color: royalblue;
+}
+
+/* Fim do teste do carousel */
+
+.colecao img{
+    /* card Calçados */
+
+    position: absolute;
+    max-width: 1863px;
+    max-height: 2000px;
+    min-height: 830px;
+    margin-top: 1250px;
+
+    background-color: rgb(151, 139, 163);
+}
+
+.cole_cor {
+    /* card Bebês*/
+
+    position: absolute;
+    width: 1863px;
+    height: 830px;
+    left: 0px;
+    top: 3250px;
+
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.card_cole{
+
+    /* card cole*/
+
+
+position: absolute;
+width: 981px;
+height: 750px;
+left: 30px;
+top: 40px;
+
+
+
+}
+
+.card_cole1{
+    /* cards da coleção*/
+
+
+position: absolute;
+width: 430.5px;
+height: 680px;
+left: 10px;
+top: 40px;
+
+background: url(/Roupa_infantil_2.0/imagens/coleção/colecao_2.png) #D9D9D9;
+opacity: 0.7;
+box-shadow: 2px 2px 24px rgba(0, 0, 0, 0.25);
+backdrop-filter: blur(28px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 10px;
+}
+
+
+.card_cole2{
+
+    /* cards da coleção*/
+
+
+position: absolute;
+width: 430.5px;
+height: 680px;
+left: 510px;
+top: 0px;
+
+background: url(/Roupa_infantil_2.0/imagens/coleção/colecao_1.png) #D9D9D9;
+opacity: 0.7;
+box-shadow: 2px 2px 24px rgba(0, 0, 0, 0.25);
+backdrop-filter: blur(28px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 10px;
+}
+
+
+.txt_colecao{
+
+    /* titulo coleção */
+
+
+position: absolute;
+width: 591px;
+height: 44px;
+left: 1200px;
+top: 3320px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 66px;
+line-height: 50px;
+/* identical to box height */
+
+
+color: #ffffff;
+}
+
+
+.txt_txt{
+
+        /* texto  da coleção*/
+
+position: absolute;
+width: 685px;
+height: 375px;
+left: 1150px;
+top: 3400px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 26px;
+
+
+color: #FFFFFF;
+}
