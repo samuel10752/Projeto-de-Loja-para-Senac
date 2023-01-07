@@ -1,0 +1,458 @@
+.cards img {
+    /* card somos */
+
+    position: absolute;
+    width: 730px;
+    height: 663px;
+    left: 50px;
+    top: 120px;
+}
+
+.cor {
+    /* card cor */
+
+    position: absolute;
+    width: 730px;
+    height: 663px;
+    left: 50px;
+    top: 120px;
+
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.cards h1 {
+    /* titulo somos */
+
+    position: absolute;
+    width: 250px;
+    left: 251px;
+    top: 302px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 68px;
+    /* identical to box height */
+
+    color: #ffffff;
+}
+
+.cards p {
+    /* texto de somos */
+
+    position: absolute;
+    width: 700px;
+    height: 94px;
+    left: 10px;
+    top: 413px;
+
+    font-family: "Inter";
+    font-style: normal;
+    text-align: center;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 42px;
+
+    color: #ffffff;
+}
+
+/* animação do ofertas  */
+
+.container {
+    position: absolute;
+    top: 18%;
+    width: 0%;
+    margin-left: 32%;
+    height: 110%;
+}
+
+.animated-word {
+    font-family: Helvetica;
+    letter-spacing: 0.4em;
+    font-weight: 1100;
+    font-size: 710px;
+    text-align: center;
+    color: #202125;
+    cursor: pointer;
+    max-width: 260px;
+    max-height: 50px;
+    width: 10%;
+    outline: 4px solid;
+    outline-color: rgb(255, 255, 255);
+    outline-offset: 0px;
+    transition: all 600ms cubic-bezier(0.2, 0, 0, 0.8);
+}
+
+.animated-word:hover {
+    color: rgba(1, 250, 13, 0.7);
+    outline-color: rgba(71, 126, 232, 0);
+    outline-offset: 20px;
+}
+
+/* Fim da animação do botão de comprar  */
+
+.card_1 img {
+    /* card Bebês */
+
+    position: absolute;
+    width: 500px;
+    height: 320px;
+    left: 800px;
+    top: 120px;
+}
+
+.cor_1 {
+    /* card Bebês*/
+
+    position: absolute;
+    width: 500px;
+    height: 320px;
+    left: 800px;
+    top: 120px;
+
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.card_1 h1 {
+    /*Titulo Bebês */
+
+    position: absolute;
+    width: 95px;
+    height: 21.5px;
+    left: 200px;
+    top: 100px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+
+    color: #ffffff;
+}
+
+.card_1 p {
+    /*Subtitulo Bebês */
+
+    position: absolute;
+    width: 425px;
+    height: 21.5px;
+    left: 80px;
+    top: 160px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 60px;
+
+    color: #ffffff;
+}
+
+/* animação do botão de Ofertas  */
+
+.container_1 {
+    position: absolute;
+    top: 20%;
+    left: 15%;
+}
+
+.animated-word_1 {
+    font-family: Helvetica;
+    letter-spacing: 0.4em;
+    font-weight: 00px;
+    font-size: 10px;
+    text-align: center;
+    color: #202125;
+    cursor: pointer;
+    min-height: 60px;
+    max-height: 220px;
+    max-width: 230px;
+    outline: 4px solid;
+    outline-color: rgb(255, 255, 255);
+    outline-offset: px;
+    transition: all 600ms cubic-bezier(0.2, 0, 0, 0.8);
+}
+
+.animated-word_1:hover {
+    color: rgba(9, 255, 21, 0.7);
+    outline-color: rgba(71, 126, 232, 0);
+    outline-offset: 20px;
+}
+
+/* Fim da animação do botão de Ofertas  */
+
+.card_2 img {
+    /* card Meninas */
+
+    position: absolute;
+    width: 500px;
+    height: 320px;
+    left: 800px;
+    top: 463px;
+}
+
+.cor_2 {
+    /* card Meninas*/
+
+    position: absolute;
+    width: 500px;
+    height: 320px;
+    left: 800px;
+    top: 463px;
+
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.card_2 h1 {
+    /*Titulo Meninas */
+
+    position: absolute;
+    width: 95px;
+    height: 21.5px;
+    left: 170px;
+    top: 100px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+
+    color: #ffffff;
+}
+
+.card_2 p {
+    /*Subtitulo Meninas */
+
+    position: absolute;
+    width: 425px;
+    height: 21.5px;
+    left: 50px;
+    top: 160px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 60px;
+
+    color: #ffffff;
+}
+
+/* animação do botão de Ofertas   */
+
+.container_2 {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+
+.animated-word_2 {
+    font-family: Helvetica;
+    letter-spacing: 0.4em;
+    font-weight: 00px;
+    font-size: 10px;
+    text-align: center;
+    color: #202125;
+    cursor: pointer;
+    min-height: 60px;
+    max-height: 220px;
+    max-width: 230px;
+    outline: 4px solid;
+    outline-color: rgb(255, 255, 255);
+    outline-offset: px;
+    transition: all 600ms cubic-bezier(0.2, 0, 0, 0.8);
+}
+
+.animated-word_2:hover {
+    color: rgba(9, 255, 21, 0.7);
+    outline-color: rgba(71, 126, 232, 0);
+    outline-offset: 20px;
+}
+
+/* Fim da animação do botão de Ofertas  */
+
+.card_3 img {
+    /* card Meninos  */
+
+    position: absolute;
+    width: 500px;
+    height: 320px;
+    left: 1330px;
+    top: 120px;
+}
+
+.cor_3 {
+    /* card Meninos */
+
+    position: absolute;
+    width: 500px;
+    height: 320px;
+    left: 1330px;
+    top: 120px;
+
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.card_3 h1 {
+    /*Titulo Meninos */
+
+    position: absolute;
+    width: 95px;
+    height: 21.5px;
+    left: 180px;
+    top: 100px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+
+    color: #ffffff;
+}
+
+.card_3 p {
+    /*Subtitulo  Meninos*/
+
+    position: absolute;
+    width: 425px;
+    height: 21.5px;
+    left: 50px;
+    top: 160px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 60px;
+
+    color: #ffffff;
+}
+
+/* animação do botão de Ofertas   */
+
+.container_3 {
+    position: absolute;
+    top: 20%;
+    left: 22%;
+}
+
+.animated-word_3 {
+    font-family: Helvetica;
+    letter-spacing: 0.4em;
+    font-weight: 00px;
+    font-size: 10px;
+    text-align: center;
+    color: #202125;
+    cursor: pointer;
+    min-height: 60px;
+    max-height: 220px;
+    max-width: 230px;
+    outline: 4px solid;
+    outline-color: rgb(255, 255, 255);
+    outline-offset: px;
+    transition: all 600ms cubic-bezier(0.2, 0, 0, 0.8);
+}
+
+.animated-word_3:hover {
+    color: rgba(9, 255, 21, 0.7);
+    outline-color: rgba(71, 126, 232, 0);
+    outline-offset: 20px;
+}
+
+/* Fim da animação do botão de Ofertas   */
+
+.card_4 img {
+    /* card Calçados */
+
+    position: absolute;
+    width: 500px;
+    height: 320px;
+    left: 1330px;
+    top: 463px;
+}
+
+.cor_4 {
+    /* card Calçados */
+
+    position: absolute;
+    width: 500px;
+    height: 320px;
+    left: 1330px;
+    top: 463px;
+
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.card_4 h1 {
+    /*Titulo Calçados */
+
+    position: absolute;
+    width: 95px;
+    height: 21.5px;
+    left: 170px;
+    top: 100px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+
+    color: #ffffff;
+}
+
+.card_4 p {
+    /*Subtitulo Calçados*/
+
+    position: absolute;
+    width: 425px;
+    height: 21.5px;
+    left: 50px;
+    top: 160px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 60px;
+
+    color: #ffffff;
+}
+
+/* animação do botão de Ofertas  */
+
+.container_4 {
+    position: absolute;
+    top: 20%;
+    left: 22%;
+}
+
+.animated-word_4 {
+    font-family: Helvetica;
+    letter-spacing: 0.4em;
+    font-weight: 00px;
+    font-size: 10px;
+    text-align: center;
+    color: #202125;
+    cursor: pointer;
+    min-height: 60px;
+    max-height: 220px;
+    max-width: 230px;
+    outline: 4px solid;
+    outline-color: rgb(255, 255, 255);
+    outline-offset: px;
+    transition: all 600ms cubic-bezier(0.2, 0, 0, 0.8);
+}
+
+.animated-word_4:hover {
+    color: rgba(9, 255, 21, 0.7);
+    outline-color: rgba(71, 126, 232, 0);
+    outline-offset: 20px;
+}
+
+/* Fim da animação do botão de Ofertas   */
+
