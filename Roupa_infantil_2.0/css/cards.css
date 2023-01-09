@@ -215,18 +215,16 @@
 
 /* Fim do teste do carousel */
 
-.cor_segun{
+.cor_segun {
     /* cor segun */
 
     position: absolute;
     width: 1864px;
     height: 300px;
     top: 1600px;
-
 }
 
 .catalogo_1 h1 {
-
     /*Titulo ABA Meninos */
 
     position: absolute;
@@ -242,8 +240,6 @@
     line-height: 60px;
 
     color: #000000;
-
-
 }
 
 .card-slider {
@@ -414,19 +410,16 @@
 
 /* Fim do teste do carousel */
 
-
-.cor_terce{
+.cor_terce {
     /* cor segun */
 
     position: absolute;
     width: 1864px;
     height: 300px;
     top: 2400px;
-
 }
 
 .catalogo_2 h1 {
-
     /*Titulo ABA Meninas */
 
     position: absolute;
@@ -442,8 +435,6 @@
     line-height: 60px;
 
     color: #000000;
-
-
 }
 
 .card-slider {
@@ -614,19 +605,16 @@
 
 /* Fim do teste do carousel */
 
-
-.cor_quart{
+.cor_quart {
     /* cor quart */
 
     position: absolute;
     width: 1864px;
     height: 300px;
     top: 4100px;
-
 }
 
 .catalogo_3 h1 {
-
     /*Titulo ABA calçados */
 
     position: absolute;
@@ -642,10 +630,7 @@
     line-height: 60px;
 
     color: #000000;
-
-
 }
-
 
 .card-slider {
     position: absolute;
@@ -815,20 +800,16 @@
 
 /* Fim do teste do carousel */
 
-
-
-.cor_quit{
+.cor_quit {
     /* cor quit */
 
     position: absolute;
     width: 1864px;
     height: 300px;
     top: 5000px;
-
 }
 
 .catalogo_4 h1 {
-
     /*Titulo ABA bebes */
 
     position: absolute;
@@ -844,10 +825,7 @@
     line-height: 60px;
 
     color: #000000;
-
-
 }
-
 
 .card-slider {
     position: absolute;
@@ -1017,7 +995,7 @@
 
 /* Fim do teste do carousel */
 
-.colecao img{
+.colecao img {
     /* card Calçados */
 
     position: absolute;
@@ -1041,152 +1019,133 @@
     background: rgba(0, 0, 0, 0.5);
 }
 
-.card_cole{
-
+.card_cole {
     /* card cole*/
 
-
-position: absolute;
-width: 981px;
-height: 750px;
-left: 30px;
-top: 40px;
-
-
-
+    position: absolute;
+    width: 981px;
+    height: 750px;
+    left: 30px;
+    top: 40px;
 }
 
-.card_cole1{
+.card_cole1 {
     /* cards da coleção*/
 
+    position: absolute;
+    width: 430.5px;
+    height: 680px;
+    left: 10px;
+    top: 40px;
 
-position: absolute;
-width: 430.5px;
-height: 680px;
-left: 10px;
-top: 40px;
+    background: url(/Roupa_infantil_2.0/imagens/coleção/colecao_2.png) #d9d9d9;
+    opacity: 0.7;
+    box-shadow: 2px 2px 24px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(28px);
+    /* Note: backdrop-filter has minimal browser support */
 
-background: url(/Roupa_infantil_2.0/imagens/coleção/colecao_2.png) #D9D9D9;
-opacity: 0.7;
-box-shadow: 2px 2px 24px rgba(0, 0, 0, 0.25);
-backdrop-filter: blur(28px);
-/* Note: backdrop-filter has minimal browser support */
-
-border-radius: 10px;
+    border-radius: 10px;
 }
 
-
-.card_cole2{
-
+.card_cole2 {
     /* cards da coleção*/
 
+    position: absolute;
+    width: 430.5px;
+    height: 680px;
+    left: 510px;
+    top: 0px;
 
-position: absolute;
-width: 430.5px;
-height: 680px;
-left: 510px;
-top: 0px;
+    background: url(/Roupa_infantil_2.0/imagens/coleção/colecao_1.png) #d9d9d9;
+    opacity: 0.7;
+    box-shadow: 2px 2px 24px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(28px);
+    /* Note: backdrop-filter has minimal browser support */
 
-background: url(/Roupa_infantil_2.0/imagens/coleção/colecao_1.png) #D9D9D9;
-opacity: 0.7;
-box-shadow: 2px 2px 24px rgba(0, 0, 0, 0.25);
-backdrop-filter: blur(28px);
-/* Note: backdrop-filter has minimal browser support */
-
-border-radius: 10px;
+    border-radius: 10px;
 }
 
-
-.txt_colecao{
-
+.txt_colecao {
     /* titulo coleção */
 
+    position: absolute;
+    width: 591px;
+    height: 44px;
+    left: 1200px;
+    top: 3320px;
 
-position: absolute;
-width: 591px;
-height: 44px;
-left: 1200px;
-top: 3320px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 66px;
+    line-height: 50px;
+    /* identical to box height */
 
-font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 66px;
-line-height: 50px;
-/* identical to box height */
-
-
-color: #ffffff;
+    color: #ffffff;
 }
 
+.txt_txt {
+    /* texto  da coleção*/
 
-.txt_txt{
+    position: absolute;
+    width: 755px;
+    height: 375px;
+    left: 1070px;
+    top: 3400px;
 
-        /* texto  da coleção*/
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
 
-position: absolute;
-width: 755px;
-height: 375px;
-left: 1070px;
-top: 3400px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 500;
-font-size: 26px;
-
-
-color: #FFFFFF;
+    color: #ffffff;
 }
-
 
 .slider-area h2 {
     position: absolute;
     margin-top: 7000px;
-	text-align: center;
+    text-align: center;
     margin-left: 700px;
-	font-family: impact;
-	font-size: 60px;
-	font-weight: 500;
-	text-transform: uppercase;
-	letter-spacing: 2px;
-	color: rgb(15, 12, 12);
+    font-family: impact;
+    font-size: 60px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: rgb(15, 12, 12);
 }
 .wrapper_6 {
     position: relative;
-	display: flex;
+    display: flex;
     top: 7100px;
-	width: 1783px;
-	margin: 10 auto;
-	overflow: hidden;
-	border-radius: 10px;
-	padding: 2.5rem;
-	background: rgb(0, 0, 0);
-	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 1783px;
+    margin: 10 auto;
+    overflow: hidden;
+    border-radius: 10px;
+    padding: 2.5rem;
+    background: rgb(0, 0, 0);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .item {
-    
-	animation: animate 45s alternate linear infinite;
+    animation: animate 45s alternate linear infinite;
 }
 .container:hover .item {
-	animation-play-state: paused;
+    animation-play-state: paused;
 }
 @keyframes animate {
-	0% {
-		transform: translate3d(0, 0, 0);
-	}
-	100% {
-		transform: translate3d(-1100px, 0, 0);
-	}
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+    100% {
+        transform: translate3d(-1100px, 0, 0);
+    }
 }
-@media (max-width:767px) {
-	.slider-area h2 {
-		font-size: 30px;
-	}
-	.wrapper {
-		width: 95%;
-		border-radius: 0;
-		padding: 0;
-	}
+@media (max-width: 767px) {
+    .slider-area h2 {
+        font-size: 30px;
+    }
+    .wrapper {
+        width: 95%;
+        border-radius: 0;
+        padding: 0;
+    }
 }
-
