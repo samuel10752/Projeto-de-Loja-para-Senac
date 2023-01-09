@@ -1038,13 +1038,30 @@
     left: 10px;
     top: 40px;
 
-    background: url(/Roupa_infantil_2.0/imagens/coleção/colecao_2.png) #d9d9d9;
+    background: #d9d9d9;
     opacity: 0.7;
     box-shadow: 2px 2px 24px rgba(0, 0, 0, 0.25);
     backdrop-filter: blur(28px);
     /* Note: backdrop-filter has minimal browser support */
 
     border-radius: 10px;
+
+}
+
+.card_img1 {
+
+    position: absolute;
+    width: 430.5px;
+    height: 680px;
+    left: 40px;
+    top: 3330px;
+
+    opacity: 0.7;
+    backdrop-filter: blur(28px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 10px;
+
 }
 
 .card_cole2 {
@@ -1056,13 +1073,31 @@
     left: 510px;
     top: 0px;
 
-    background: url(/Roupa_infantil_2.0/imagens/coleção/colecao_1.png) #d9d9d9;
+    background: #d9d9d9;
     opacity: 0.7;
     box-shadow: 2px 2px 24px rgba(0, 0, 0, 0.25);
     backdrop-filter: blur(28px);
     /* Note: backdrop-filter has minimal browser support */
 
     border-radius: 10px;
+}
+
+
+
+.card_img2 {
+
+    position: absolute;
+    width: 430.5px;
+    height: 680px;
+    left: 550px;
+    top: 3330px;
+
+    opacity: 0.7;
+    backdrop-filter: blur(28px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 10px;
+
 }
 
 .txt_colecao {
@@ -1100,6 +1135,8 @@
 
     color: #ffffff;
 }
+
+    /* inicio coleção femenina */
 
 .slider-area h2 {
     position: absolute;
@@ -1149,3 +1186,5 @@
         padding: 0;
     }
 }
+
+    /* Fim coleção femenina */
