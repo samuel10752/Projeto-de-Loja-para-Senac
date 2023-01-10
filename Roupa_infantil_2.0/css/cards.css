@@ -995,6 +995,8 @@
 
 /* Fim do teste do carousel */
 
+/* inicio coleção femenina */
+
 .colecao img {
     /* card Calçados */
 
@@ -1045,11 +1047,9 @@
     /* Note: backdrop-filter has minimal browser support */
 
     border-radius: 10px;
-
 }
 
 .card_img1 {
-
     position: absolute;
     width: 430.5px;
     height: 680px;
@@ -1061,7 +1061,6 @@
     /* Note: backdrop-filter has minimal browser support */
 
     border-radius: 10px;
-
 }
 
 .card_cole2 {
@@ -1082,10 +1081,7 @@
     border-radius: 10px;
 }
 
-
-
 .card_img2 {
-
     position: absolute;
     width: 430.5px;
     height: 680px;
@@ -1097,7 +1093,6 @@
     /* Note: backdrop-filter has minimal browser support */
 
     border-radius: 10px;
-
 }
 
 .txt_colecao {
@@ -1136,11 +1131,11 @@
     color: #ffffff;
 }
 
-    /* inicio coleção femenina */
+/* inicio Nossos Parceiros */
 
 .slider-area h2 {
     position: absolute;
-    margin-top: 7000px;
+    margin-top: 8000px;
     text-align: center;
     margin-left: 700px;
     font-family: impact;
@@ -1153,7 +1148,7 @@
 .wrapper_6 {
     position: relative;
     display: flex;
-    top: 7100px;
+    top: 8100px;
     width: 1783px;
     margin: 10 auto;
     overflow: hidden;
@@ -1187,4 +1182,162 @@
     }
 }
 
-    /* Fim coleção femenina */
+/* Fim Nossos Parceiros */
+
+.sobre_image img {
+    /* Imagem de Fundo Sobre */
+
+    position: absolute;
+    width: 1862px;
+    height: 1637px;
+    left: 0px;
+    top: 5880px;
+}
+
+.sobre {
+    /* Texto Sobre */
+
+    position: absolute;
+    width: 313px;
+    height: 67px;
+    left: 565px;
+    top: 170px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 68px;
+
+    color: #ffffff;
+}
+
+.txt_sobre h1 {
+    /*  Texto Sobre  */
+
+    position: absolute;
+    width: 313px;
+    height: 67px;
+    left: 900px;
+    top: 6000px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 76px;
+    line-height: 68px;
+
+    color: #ffffff;
+}
+
+.cor_fundo {
+    /* cor de fundo  */
+
+    position: absolute;
+    width: 1862px;
+    height: 1637px;
+    left: 0px;
+    top: 5880px;
+
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.cor_missao {
+    /* cor missão */
+
+    position: absolute;
+    width: 1050px;
+    height: 390px;
+    left: 40px;
+    top: 6100px;
+
+    background: #ffa92e;
+}
+
+.tt_missao {
+    /* tt_missao*/
+
+    position: absolute;
+    width: 430px;
+    height: 40px;
+    left: 50px;
+    top: 85px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 44px;
+
+    color: #000000;
+}
+
+.txt_missao {
+    /* txt_missao*/
+
+    position: absolute;
+    width: 890px;
+    height: 92px;
+    left: 53px;
+    top: 155px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25px;
+    text-align: justify;
+
+    color: #000000;
+}
+
+.cor_visao {
+    /* cor Visão */
+
+    position: absolute;
+    width: 695px;
+    height: 390px;
+    left: 1120px;
+    top: 6100px;
+
+    background: #ffffff;
+}
+
+.tt_visao {
+    /* tt_visao */
+
+    position: absolute;
+    width: 390px;
+    height: 92px;
+    left: 53px;
+    top: 85px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+
+    color: #000000;
+}
+
+.txt_visao {
+    /* txt_visao */
+
+
+    position: absolute;
+    width: 551px;
+    height: 90px;
+    left: 56px;
+    top: 148px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: justify;
+    
+    color: #000000;
+    
+}
