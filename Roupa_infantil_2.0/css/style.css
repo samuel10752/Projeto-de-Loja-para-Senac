@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
-*{
+footer{
   color: #d9d9d9;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
@@ -22,7 +22,8 @@
 }
 footer{
   position: absolute;
-  margin-top: 8220px;
+  margin-top: 8230px;
+  
 
   background: #111;
 }
