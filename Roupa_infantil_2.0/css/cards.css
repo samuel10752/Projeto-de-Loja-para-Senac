@@ -1587,31 +1587,28 @@
     left: 645px;
     top: 6990px;
 
-    background: #FFA92E;
+    background: #ffa92e;
 }
 
-.tt_historico{
-
+.tt_historico {
     /* Titulo Breve Histórico da Empresa */
 
-        position: absolute;
-        width: 555px;
-        height: 41px;
-        left: 122px;
-        top: 117px;
-    
-        font-family: "Inter";
-        font-style: normal;
-        font-weight: 700;
-        font-size: 46px;
-        line-height: 44px;
-    
-        color: #000000;
+    position: absolute;
+    width: 555px;
+    height: 41px;
+    left: 122px;
+    top: 117px;
 
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 44px;
+
+    color: #000000;
 }
 
-.txt_historico{
-    
+.txt_historico {
     /* Texto Breve Histórico da Empresa */
 
     position: absolute;
@@ -1628,6 +1625,4 @@
     text-align: justify;
 
     color: #000000;
-
-
 }
