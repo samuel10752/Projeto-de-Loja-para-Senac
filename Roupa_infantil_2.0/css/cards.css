@@ -1289,11 +1289,11 @@
 .wrapper_6 {
     position: relative;
     display: flex;
-    top: 8100px;
-    width: 1783px;
+    top: 8350px;
+    width: 1863px;
     margin: 10 auto;
     overflow: hidden;
-    border-radius: 10px;
+    border-radius: 0px;
     padding: 2.5rem;
     background: rgb(0, 0, 0);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
