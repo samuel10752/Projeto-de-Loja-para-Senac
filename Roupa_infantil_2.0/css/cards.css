@@ -1454,7 +1454,7 @@
     /* tt_visao */
 
     position: absolute;
-    width: 390px;
+    width: 400px;
     height: 92px;
     left: 53px;
     top: 85px;
@@ -1462,7 +1462,7 @@
     font-family: "Inter";
     font-style: normal;
     font-weight: 700;
-    font-size: 36px;
+    font-size: 46px;
     line-height: 44px;
 
     color: #000000;
@@ -1517,10 +1517,8 @@
     color: #000000;
 }
 
-.imagem_mercado img{
-
+.imagem_mercado img {
     /* imagem de desenho de mercado alvo */
-
 
     position: absolute;
     width: 564px;
@@ -1531,3 +1529,105 @@
     transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 
+.cor_valores {
+    /* cor de fundo de valores fundamentais */
+
+    position: absolute;
+    width: 1170px;
+    height: 425px;
+    left: 645px;
+    top: 6520px;
+
+    background: #d9d9d9;
+}
+
+.tt_valores {
+    /* titulo de valores */
+
+    position: absolute;
+    width: 435px;
+    height: 41px;
+    left: 122px;
+    top: 117px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 44px;
+
+    color: #000000;
+}
+
+.txt_valores {
+    /* texto de valores*/
+
+    position: absolute;
+    width: 923px;
+    height: 93px;
+    left: 122px;
+    top: 180px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: justify;
+
+    color: #000000;
+}
+
+.cor_historico {
+    /* cor de fundo de Breve Histórico da Empresa */
+
+    position: absolute;
+    width: 1170px;
+    height: 425px;
+    left: 645px;
+    top: 6990px;
+
+    background: #FFA92E;
+}
+
+.tt_historico{
+
+    /* Titulo Breve Histórico da Empresa */
+
+        position: absolute;
+        width: 555px;
+        height: 41px;
+        left: 122px;
+        top: 117px;
+    
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 46px;
+        line-height: 44px;
+    
+        color: #000000;
+
+}
+
+.txt_historico{
+    
+    /* Texto Breve Histórico da Empresa */
+
+    position: absolute;
+    width: 923px;
+    height: 93px;
+    left: 122px;
+    top: 180px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: justify;
+
+    color: #000000;
+
+
+}
