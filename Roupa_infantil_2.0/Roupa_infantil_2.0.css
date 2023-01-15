@@ -19,7 +19,7 @@ html {
 .loader_bg {
     position: fixed;
     z-index: 999999;
-    background: rgb(118, 116, 116) no-repeat center center;
+    background: rgb(177, 176, 176) no-repeat center center;
     width: 100%;
     height: 100%;
 }
@@ -123,7 +123,7 @@ html {
     height: 93px;
 
 
-    background: #d9d9d9;
+    background: #D9D9D9;
 }
 
 .navbar_img {
@@ -150,7 +150,7 @@ html {
     line-height: 22px;
     /* identical to box height */
 
-    color: #000000;
+    color: rgb(10, 9, 9);
 }
 
 .navbar_text h4 {
@@ -168,8 +168,7 @@ html {
     line-height: 22px;
     /* identical to box height */
 
-    color: #000000;
-}
+    color: rgb(10, 9, 9);}
 
 .navbar_info h3 {
     /* navbar inicio */
@@ -186,7 +185,7 @@ html {
     line-height: 22px;
     /* identical to box height */
 
-    color: #000000;
+    color: rgb(10, 9, 9);
 }
 
 .navbar_clases h6 {
@@ -204,7 +203,7 @@ html {
     line-height: 22px;
     /* identical to box height */
 
-    color: #000000;
+    color: rgb(10, 9, 9);;
 }
 
 .navbar_clases h5 {
@@ -222,7 +221,7 @@ html {
     line-height: 22px;
     /* identical to box height */
 
-    color: #000000;
+    color: rgb(10, 9, 9);
 }
 
 .navbar_clases h4 {
@@ -240,7 +239,7 @@ html {
     line-height: 22px;
     /* identical to box height */
 
-    color: #000000;
+    color: rgb(10, 9, 9);
 }
 
 .navbar_clases h3 {
@@ -258,7 +257,7 @@ html {
     line-height: 22px;
     /* identical to box height */
 
-    color: #000000;
+    color: rgb(10, 9, 9);
 }
 
 .navbar_clases h2 {
@@ -276,7 +275,7 @@ html {
     line-height: 22px;
     /* identical to box height */
 
-    color: #000000;
+    color: rgb(10, 9, 9);
 }
 
 .navbar_info h2 {
@@ -294,7 +293,7 @@ html {
     line-height: 22px;
     /* identical to box height */
 
-    color: #000000;
+    color: rgb(10, 9, 9);
 }
 
 .navbar_info h1 {
@@ -312,7 +311,7 @@ html {
     line-height: 22px;
     /* identical to box height */
 
-    color: #000000;
+    color: rgb(10, 9, 9);
 }
 
 .carrinho {
